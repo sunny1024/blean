@@ -2,10 +2,49 @@ import Vue from 'vue'
 import App from './App.vue'
 
 
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+Vue.use(ElementUI)
+
+import Router from 'vue-router'
+Vue.use(Router)
+
+import layoutA from './layout/layoutA.vue'
+import layoutB from './layout/layoutB.vue'
+
+const routes = [
+  {
+    path: '/',
+    redirect: '/home',
+    component: layoutA,
+    children: [{
+      path: '/home', component: () => import('./view/home/index.vue')
+    }]
+  },
+  {
+    path: '/about',
+    component: layoutB,
+    children: [{
+      path: '/about/read', component: () => import('./view/read/read.vue')
+    }, {
+      path: '/about/music', component: () => import('./view/music/music.vue')
+    }, {
+      path: '/about/film', component: () => import('./view/film/film.vue')
+    }]
+  }
+]
+
+let router = new Router({
+  routes // (缩写) 相当于 routes: routes
+})
+
+
+new Vue({
+  router,
+  render: h => h(App),
+}).$mount('#app')
 
 Vue.config.productionTip = false
 
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+

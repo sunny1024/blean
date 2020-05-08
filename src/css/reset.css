@@ -4,7 +4,7 @@ body{font:18px "宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-si
 
 a{color:#172c45;text-decoration:none}
 
-a:hover{color:#cd0200;text-decoration:underline}
+a:hover{cursor: pointer;}
 
 em{font-style:normal}
 
