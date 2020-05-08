@@ -7,7 +7,7 @@
       <div class="hotspot-picture">
         <ul>
           <li>
-            <img src="@/image/hot/hot1.jpg" />
+            <img src="@/assets/image/hot/hot1.jpg" />
             <div>
               <span>
                 <a href="javascript:;">奇米的猜想</a>
@@ -16,7 +16,7 @@
             </div>
           </li>
           <li>
-            <img src="@/image/hot/hot2.jpg" />
+            <img src="@/assets/image/hot/hot2.jpg" />
             <div>
               <span>
                 <a href="javascript:;">旧时光</a>
@@ -25,7 +25,7 @@
             </div>
           </li>
           <li>
-            <img src="@/image/hot/hot3.jpg" />
+            <img src="@/assets/image/hot/hot3.jpg" />
             <div>
               <span>
                 <a href="javascript:;">猫咪世界</a>
@@ -34,7 +34,7 @@
             </div>
           </li>
           <li>
-            <img src="@/image/hot/hot4.jpg" />
+            <img src="@/assets/image/hot/hot4.jpg" />
             <div>
               <span>
                 <a href="javascript:;">精简生活</a>
@@ -82,7 +82,7 @@
       </div>
       <div class="hotspot-right">
         <div class="hotspot-book">
-          <img src="@/image/hot/book.jpg" alt="图书" />
+          <img src="@/assets/image/hot/book.jpg" alt="图书" />
         </div>
         <div class="hot-topic">
           <a href="javascript:;">热点话题……（去话题广场）</a>
@@ -123,7 +123,5 @@
 <script>
 export default {};
 </script>
-<style src='@/css/index.css'></style>
-<style src='@/css/index.css'></style>
 <style>
 </style>

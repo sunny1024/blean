@@ -102,11 +102,6 @@ font-family: sans-serif;
   display: inline-block;
   margin: 0 60px 0 20px;
 }
-.user-login > .user-header  .user-current {
-  font-weight: bold;
-  color: black;
-  border-bottom: 1px solid black;
-}
  .user-show {
   margin-bottom: 10px;
 }

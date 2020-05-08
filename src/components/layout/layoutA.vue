@@ -3,7 +3,7 @@
     <div class="anony-nav">
       <div class="anony-nav-left">
         <span>
-          <img style="width:110px" src="@/image/logo/image1.jpg" />
+          <img style="width:110px" src="@/assets/image/logo/image1.jpg" />
         </span>
         <div class="anony-nav-srh">
           <el-input placeholder="书籍、电影、音乐" v-model="input1">

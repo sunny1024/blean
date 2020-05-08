@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-
+import "@/assets/css/reset.css"
+import "@/assets/css/index.css"
 
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
@@ -9,8 +10,8 @@ Vue.use(ElementUI)
 import Router from 'vue-router'
 Vue.use(Router)
 
-import layoutA from './layout/layoutA.vue'
-import layoutB from './layout/layoutB.vue'
+import layoutA from '@/components/layout/layoutA.vue'
+import layoutB from '@/components/layout/layoutB.vue'
 
 const routes = [
   {
