@@ -1,21 +1,21 @@
 <template>
   <div>
     <login></login>
-    <ComponentB></ComponentB>
-    <ComponentC></ComponentC>
+    <hot></hot>
+    <componentA></componentA>
   </div>
 </template>
 
 <script>
 import login from "@/components/login/index.vue";
-import ComponentB from "@/components/ComponentB.vue";
-import ComponentC from "@/components/ComponentC.vue";
+import hot from "./hot.vue";
+import componentA from "./componentA.vue";
 
 export default {
   components: {
     login,
-    ComponentB,
-    ComponentC
+    hot,
+    componentA
   }
 };
 </script>

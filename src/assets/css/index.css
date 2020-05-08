@@ -2,6 +2,19 @@
   padding-top: 30px;
 }
 
+.section{
+    padding: 10px 0;
+    margin-bottom: 30px;
+    min-height: 200px;
+}
+.section:nth-child(2n+1){
+  padding: 40px 0 20px;
+    background: #f7f7f7;
+}
+.warpper{
+width: 950px;
+margin: 0 auto;
+}
 /* 导航栏模块 */
 .anony-nav {
   display: flex;
@@ -65,11 +78,16 @@ font-family: sans-serif;
 
 
 /* 注册登录模块 */
+.banner{
+  background: url(../image/bg.jpg) no-repeat;
+  background-size: contain;
+  background-color: #edf4ed;;
+}
 .register {
   display: flex;
   justify-content: flex-end;
   padding: 0 120px;
-  height: 300px;
+  margin-bottom: 25px;
 }
 .register > .info-abount {
   width: 100px;
@@ -178,12 +196,9 @@ width: 75px;
 
 /* 热点信息模块 */
 .hot-main{
-width: 75%;
-  height: 510px;
-  margin: auto;
-  margin-top: 30px;
+  width: 73%;
+  margin: 0 auto;
 }
-
 .hotspot-main{
 display: flex;
  justify-content: space-between;
@@ -302,9 +317,10 @@ content: "";
   margin-right: 50px;
   margin-bottom: 20px;
 }
-.time-main-content li img{
+.time-main-content li .time-cover{
  width: 100px;
 height: 141px;
+filter:brightness(90%);
 }
 .time-main-content li {
   display: inline-block;
@@ -312,6 +328,18 @@ height: 141px;
 }
 .time-main-content li a{
   display: inline-block;
+  position: relative;
+  
+}
+.time-main-content li i{
+  display: inline-block;
+  position: absolute;
+  right: 2px;
+  bottom: 8px;
+}
+.time-main-content li .time-icon{
+  width: 50%;
+  height: 50%;
 }
 .time-main-content .time-dirct{
   width: 95px;

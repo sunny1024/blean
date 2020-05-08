@@ -5,10 +5,10 @@
     </div>
     <div class="user-info user-font">
       <div class="user-phoneinfo">
-        <el-input v-model="input" placeholder="手机/邮箱"></el-input>
+        <el-input placeholder="手机/邮箱"></el-input>
       </div>
       <div class="user-text">
-        <el-input placeholder="密码" v-model="input" show-password></el-input>
+        <el-input placeholder="密码" show-password></el-input>
       </div>
       <div class="user-register">
         <el-button type="success">登录豆瓣</el-button>

@@ -6,7 +6,7 @@
     </div>
     <div class="user-info user-font">
       <div class="user-phoneinfo">
-        <el-input placeholder="手机号" v-model="input3" class="input-with-select">
+        <el-input placeholder="手机号" class="input-with-select">
           <el-select v-model="select" slot="prepend" placeholder="+86">
             <el-option label="+81" value="1"></el-option>
             <el-option label="+82" value="2"></el-option>
@@ -15,7 +15,7 @@
         </el-input>
       </div>
       <div class="user-text">
-        <el-input placeholder="请输入内容" v-model="input3" class="input-with-select">
+        <el-input placeholder="请输入内容" class="input-with-select">
           <el-button slot="append">获取验证码</el-button>
         </el-input>
       </div>
@@ -34,7 +34,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      select: ""
+    };
+  }
+};
 </script>
 
 <style>
