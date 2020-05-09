@@ -3,6 +3,8 @@
     <login></login>
     <hot></hot>
     <componentA></componentA>
+    <film></film>
+    <read></read>
   </div>
 </template>
 
@@ -10,12 +12,16 @@
 import login from "@/components/login/index.vue";
 import hot from "./hot.vue";
 import componentA from "./componentA.vue";
+import film from "./film.vue";
+import read from "./read.vue";
 
 export default {
   components: {
     login,
     hot,
-    componentA
+    componentA,
+    film,
+    read
   }
 };
 </script>

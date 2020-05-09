@@ -196,8 +196,9 @@ width: 75px;
 
 /* 热点信息模块 */
 .hot-main{
-  width: 73%;
-  margin: 0 auto;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .hotspot-main{
 display: flex;
@@ -206,15 +207,18 @@ display: flex;
   color:darkgrey;
 }
 .hot-main .hot-more{
-  font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
   margin: 0 0 12px 0;
 }
-.hot-main .hot-more>a{
+.hot-main>span{
   color: #072;
 }
+.hot-main a{
+   color:  #27a;;
+  font-size: 12px;
+}
 .hotspot-main a{
-  color:  #669;;
+  color:  #27a;;
   font-size: 12px;
 }
 .hotspot-picture{
@@ -252,7 +256,10 @@ font-size: 12px;
   margin-left: 25px;
 }
 .hotspot-right ul li{
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+}
+.hotspot-right>.hotspot-book{
+  margin-bottom: 10px;
 }
 .hotspot-right>.hotspot-book>img{
   height: 146px;
@@ -294,7 +301,8 @@ font-size: 12px;
 }
 .blean-time-nav>h2{
   color: #494949;
-  font-family: sans-serif;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .blean-time-main{
@@ -353,4 +361,174 @@ filter:brightness(90%);
     font-size: 12px;
     color: #999999;
     margin-top: 10px;
+}
+
+/* 豆瓣电影模块 */
+.blean-film-main{
+  display: flex;
+  justify-content: space-between;
+}
+.blean-film-main .side-navbar h2{
+margin-bottom: 10px;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+}
+.blean-film-main a{
+color: #27a;
+}
+.side-navbar{
+width: 190px;
+}
+.side-navbar>.side-nav-info li{
+margin-bottom: 5px;
+}
+.side-navbar>.side-nav-info a{
+  font-size: 14px;
+}
+.film-show-content .pic{
+  height: 145px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.film-show-content::after {
+content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.film-show-content li{
+display: inline-block;
+text-align: center;
+margin-right: 40px;
+margin-bottom: 20px;
+vertical-align: top;
+}
+.film-show-content li img{
+  width: 100px;
+}
+.film-show-content .film-fame{
+  margin-bottom: 5px;
+}
+.film-show-content .film-fame a{
+  color: #333;
+  font-size: 13px;
+}
+.film-show-content .film-mark{
+    margin-bottom: 5px;
+}
+  .film-classify{
+  width: 430px;
+}
+.film-classify .film-type::after{
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.film-classify .film-type li{
+float: left;
+}
+.film-hot-topics{
+  margin-top: 20px;
+}
+.film-hot-topics>.film-name {
+  font-size: 12px;
+}
+.film-hot-topics>.film-name li{
+  list-style-type: decimal;
+    list-style-position: inside;
+  padding-bottom: 5px;
+  margin-bottom: 6px;
+   border-bottom: 1px solid #ccc;
+}
+.film-hot-topics>.film-name a{
+  margin-left: 5px;
+
+}
+.film-type li{
+  margin-right: 13.6px;
+ 
+}
+.film-type li a{
+  font-size: 12px;
+}
+.film-show li {
+font-size: 12px;
+text-align: center;
+}
+.film-mark .mark-num{
+  display: inline-block;
+  background: -webkit-image-set(url(../image/film/film-star.jpg) 1x, url(../image/film/film-star2.jpg) 2x) no-repeat;
+  width: 55px;
+  height: 11px;
+  margin-right: 3px ;
+}
+.show-content{
+  width: 900px;
+}
+.film-show-content .film-mark .allstar50{
+background-position: 0 0px;
+}
+.film-show-content .film-mark .allstar40{
+background-position: 0px -22px;
+}
+.film-show-content .film-mark .allstar30{
+  background-position: 0px -44px;
+}
+.film-show-content .film-mark .allstar25{
+  background-position: 0px -55px;
+}
+.film-mark i{
+  font-style: normal;
+  font-size: 12px;
+  margin-left: 4px;
+    color: #e09015;
+}
+.buy-tickets{
+  width: 65px;
+
+  margin: 0 auto;
+  background:#1c8bd0 ;
+  border-radius: 2px;
+}
+.buy-tickets a{
+  display: inline-block;
+  font-size: 12px;
+  padding:3px;
+  color: white;
+}
+
+/* 读书模块 */
+.blean-read-main{
+  display: flex;
+}
+.blean-read-main .side-navbar h2{
+  font-weight: normal;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.blean-read-main a{
+  color: #614e3c;
+}
+.blean-read-main .film-fame a{
+  color: #614e3c;
+}
+.author{
+  font-size: 12px ;
+  margin-bottom: 6px;
+}
+.blean-read-main .buy-tickets{
+  background: #999a95;
+}
+.blean-read-main .buy-tickets a{
+  color: white;
+}
+.blean-read-main .film-type li:first-child>a{
+  color: #999;
+}
+.blean-read-main .film-class-more .film-type{
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
 }

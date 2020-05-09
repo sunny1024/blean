@@ -2,7 +2,7 @@ body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,s
 
 body{font:18px "宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}
 
-a{color:#172c45;text-decoration:none}
+a{text-decoration:none}
 
 a:hover{cursor: pointer;}
 
@@ -18,4 +18,7 @@ p{word-wrap:break-word}
 
 input{
     outline: none;
+}
+html{
+    color: #111;
 }
