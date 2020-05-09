@@ -417,6 +417,9 @@ vertical-align: top;
 .film-show-content .film-mark{
     margin-bottom: 5px;
 }
+.film-show-content .film-mark span{
+  font-size: 13px;
+}
   .film-classify{
   width: 430px;
 }
