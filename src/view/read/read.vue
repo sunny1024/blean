@@ -1,14 +1,9 @@
 <template>
-  <bar></bar>
+  <div>读书相关内容</div>
 </template>
 
 <script>
-import bar from "@/components/nav/bar.vue";
-export default {
-  components: {
-    bar
-  }
-};
+export default {};
 </script>
 
 <style>
