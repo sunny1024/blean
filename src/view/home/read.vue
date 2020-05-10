@@ -23,6 +23,18 @@
               <a href="javascript:;">购书单</a>
             </li>
           </ul>
+          <div class="apps-list">
+            <ul>
+              <li>
+                <a class="link-icon" href="javascript:; ">
+                  <i></i>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">豆瓣阅读</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="show-content">
           <div class="hot-main">
@@ -67,7 +79,7 @@
               <div class="film-fame">
                 <a href="javascript:;">战斗妖精·雪风...</a>
               </div>
-              <div class="author">日〕神林长平...</div>
+              <div class="author">〔日〕神林长平...</div>
               <div class="buy-tickets">
                 <a href="javascript:;">免费试读</a>
               </div>
@@ -101,7 +113,7 @@
               <div class="film-fame">
                 <a href="javascript:;">归来的星</a>
               </div>
-              <div class="author">〔免费</div>
+              <div class="author">免费</div>
               <div class="buy-tickets">
                 <a href="javascript:;">免费试读</a>
               </div>

@@ -15,6 +15,20 @@
 width: 950px;
 margin: 0 auto;
 }
+.side-navbar ul{
+  margin-bottom: 30px;
+}
+.apps-list{
+  margin-bottom: -13px;
+}
+.apps-list .link-icon i{
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px #999;
+  background: url(../image/public_icon.jpg);
+  width: 50px;
+  height: 50px;
+}
 /* 导航栏模块 */
 .anony-nav {
   display: flex;
@@ -44,6 +58,7 @@ margin: 0 auto;
 }
 .anony-nav-list {
   display: inline-block;
+  font-size: 22px;
 }
 .anony-nav-list li {
   float: left;
@@ -372,6 +387,7 @@ filter:brightness(90%);
 margin-bottom: 10px;
 font-weight: normal;
 font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
 }
 .blean-film-main a{
 color: #27a;
@@ -384,6 +400,9 @@ margin-bottom: 5px;
 }
 .side-navbar>.side-nav-info a{
   font-size: 14px;
+}
+.film-show-content{
+  margin-left: 13px;
 }
 .film-show-content .pic{
   height: 145px;
@@ -400,7 +419,7 @@ content: "";
 .film-show-content li{
 display: inline-block;
 text-align: center;
-margin-right: 40px;
+margin-right: 30px;
 margin-bottom: 20px;
 vertical-align: top;
 }
@@ -534,4 +553,86 @@ background-position: 0px -22px;
 .blean-read-main .film-class-more .film-type{
   padding: 10px 0;
   border-bottom: 1px solid #ccc;
+}
+
+/* 音乐模块 */
+.blean-music-main{
+  display: flex;
+}
+.blean-music-main a{
+   color:#555d53;
+}
+.blean-music-main .side-navbar h2{
+  font-weight: normal;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.blean-music-main .side-navbar .side-title{
+  color: #f38c00;
+}
+.blean-music-main .film-name li{
+  display: flex;
+  border-bottom: none;
+  list-style: none;
+  margin-bottom: 15px;
+}
+.blean-music-main .film-name .num{
+  float: left;
+  margin-right: 10px;
+}
+.blean-music-main .music-introduce a{
+  margin-left: 0;
+}
+
+
+.blean-music-main .music-introduce .music-about{
+  margin-top: 4px;
+  color: #999;
+}
+.film-name .music-cover{
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+.film-name .music-cover img{
+  width: 45px;
+  height: 45px;
+}
+.film-name .music-introduce{
+  display: inline-block;
+}
+.blean-music-main .music-pic{
+  position: relative;
+}
+.blean-music-main .music-pic i{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 25px;
+  background-position: 50% 50%;
+  background-image: -webkit-image-set(url(../image/music/music_play1.jpg) 1x, url(../image/music/music_play2.jpg) 2x);
+  background-repeat: no-repeat;
+}
+.blean-music-main .music-pic img{
+  width: 80px;
+} 
+.blean-music-main .film-mark{
+  width: 130px;
+}
+.blean-music-main .film-show-content .music-pic {
+  margin-bottom: 10px;
+}
+.blean-music-main .film-show-content{
+  margin-left: 0;
+}
+.blean-music-main .film-show-content li{
+  margin-right: 0;
+}
+
+.blean-music-main .apps-list .blean-fm{
+ background-position: -250px 0px;
+}
+.blean-music-main .apps-list .blean-music{
+  background-position: -50px 0;
 }

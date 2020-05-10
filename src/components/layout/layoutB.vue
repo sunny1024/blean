@@ -1,6 +1,5 @@
 <template>
   <div>
-    版型B
     <router-view></router-view>
   </div>
 </template>

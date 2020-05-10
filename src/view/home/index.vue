@@ -5,6 +5,7 @@
     <componentA></componentA>
     <film></film>
     <read></read>
+    <music></music>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import hot from "./hot.vue";
 import componentA from "./componentA.vue";
 import film from "./film.vue";
 import read from "./read.vue";
+import music from "./music.vue";
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     hot,
     componentA,
     film,
-    read
+    read,
+    music
   }
 };
 </script>
