@@ -58,16 +58,32 @@
             <div class="slide-controls">
               <ul class="slide-dots">
                 <li>
-                  <a class="active" href="javascript:;"></a>
+                  <a
+                    href="javascript:;"
+                    :class="{'active':this.currentIndex==0}"
+                    @click="Corresponding(0)"
+                  ></a>
                 </li>
                 <li>
-                  <a href="javascript:;"></a>
+                  <a
+                    href="javascript:;"
+                    :class="{'active':this.currentIndex==1}"
+                    @click="Corresponding(1)"
+                  ></a>
                 </li>
                 <li>
-                  <a href="javascript:;"></a>
+                  <a
+                    href="javascript:;"
+                    :class="{'active':this.currentIndex==2}"
+                    @click="Corresponding(2)"
+                  ></a>
                 </li>
                 <li>
-                  <a href="javascript:;"></a>
+                  <a
+                    href="javascript:;"
+                    :class="{'active':this.currentIndex==3}"
+                    @click="Corresponding(3)"
+                  ></a>
                 </li>
               </ul>
               <div class="slide-btns">
@@ -86,7 +102,12 @@
                         <img src="@/assets/image/read_express/express1.jpg" alt />
                       </a>
                     </div>
-                    <div class="info"></div>
+                    <div class="info">
+                      <div class="titel">
+                        <a href="javascript:;">大月亮及其他</a>
+                      </div>
+                      <div class="author">陆源</div>
+                    </div>
                   </li>
                   <li>
                     <div class="cover">
@@ -94,7 +115,12 @@
                         <img src="@/assets/image/read_express/express2.jpg" alt />
                       </a>
                     </div>
-                    <div class="info"></div>
+                    <div class="info">
+                      <div class="titel">
+                        <a href="javascript:;">映画术</a>
+                      </div>
+                      <div class="author">[日] 盐田明彦</div>
+                    </div>
                   </li>
                   <li>
                     <div class="cover">
@@ -102,7 +128,12 @@
                         <img src="@/assets/image/read_express/express3.jpg" alt />
                       </a>
                     </div>
-                    <div class="info"></div>
+                    <div class="info">
+                      <div class="titel">
+                        <a href="javascript:;">假面的告白</a>
+                      </div>
+                      <div class="author">[日] 三岛由纪夫</div>
+                    </div>
                   </li>
                   <li>
                     <div class="cover">
@@ -110,7 +141,12 @@
                         <img src="@/assets/image/read_express/express4.jpg" alt />
                       </a>
                     </div>
-                    <div class="info"></div>
+                    <div class="info">
+                      <div class="titel">
+                        <a href="javascript:;">核心社会学思想家（第3版）</a>
+                      </div>
+                      <div class="author">[英] 罗布·斯通斯(Rob Stones) 主编</div>
+                    </div>
                   </li>
                   <li>
                     <div class="cover">
@@ -118,7 +154,12 @@
                         <img src="@/assets/image/read_express/express5.jpg" alt />
                       </a>
                     </div>
-                    <div class="info"></div>
+                    <div class="info">
+                      <div class="titel">
+                        <a href="javascript:;">两兄弟</a>
+                      </div>
+                      <div class="author">[巴西] 米尔顿·哈通</div>
+                    </div>
                   </li>
                   <li>
                     <div class="cover">
@@ -126,7 +167,12 @@
                         <img src="@/assets/image/read_express/express6.jpg" alt />
                       </a>
                     </div>
-                    <div class="info"></div>
+                    <div class="info">
+                      <div class="titel">
+                        <a href="javascript:;">大山里的小诗人</a>
+                      </div>
+                      <div class="author">“是光”的孩子们</div>
+                    </div>
                   </li>
                   <li>
                     <div class="cover">
@@ -134,7 +180,12 @@
                         <img src="@/assets/image/read_express/express7.jpg" alt />
                       </a>
                     </div>
-                    <div class="info"></div>
+                    <div class="info">
+                      <div class="titel">
+                        <a href="javascript:;">聋哑时代</a>
+                      </div>
+                      <div class="author">双雪涛</div>
+                    </div>
                   </li>
                   <li>
                     <div class="cover">
@@ -142,7 +193,12 @@
                         <img src="@/assets/image/read_express/express8.jpg" alt />
                       </a>
                     </div>
-                    <div class="info"></div>
+                    <div class="info">
+                      <div class="titel">
+                        <a href="javascript:;">意大利的冬天</a>
+                      </div>
+                      <div class="author">[法]儒勒·米什莱</div>
+                    </div>
                   </li>
                   <li>
                     <div class="cover">
@@ -150,7 +206,12 @@
                         <img src="@/assets/image/read_express/express9.jpg" alt />
                       </a>
                     </div>
-                    <div class="info"></div>
+                    <div class="info">
+                      <div class="titel">
+                        <a href="javascript:;">银河系边缘的小失常</a>
+                      </div>
+                      <div class="author">[以色列] 埃特加·凯雷特</div>
+                    </div>
                   </li>
                   <li>
                     <div class="cover">
@@ -158,7 +219,12 @@
                         <img src="@/assets/image/read_express/express10.jpg" alt />
                       </a>
                     </div>
-                    <div class="info"></div>
+                    <div class="info">
+                      <div class="titel">
+                        <a href="javascript:;">非凡抄本寻访录</a>
+                      </div>
+                      <div class="author">[英]克里斯托弗·德·哈梅尔</div>
+                    </div>
                   </li>
                 </ul>
                 <ul class="slide-item list-col action">
@@ -302,9 +368,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">天路历程</a>
+                        <a href="javascript:;">绝对不在场证明</a>
                       </div>
-                      <div class="author">[英] 约翰·班扬</div>
+                      <div class="author">[日] 大山诚一郎</div>
                     </div>
                   </li>
                   <li>
@@ -315,9 +381,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">宫廷社会</a>
+                        <a href="javascript:;">现代拉丁美洲文学</a>
                       </div>
-                      <div class="author">[德] 诺贝特·埃利亚斯</div>
+                      <div class="author">[美] 罗伯托·冈萨雷斯·埃切维里亚</div>
                     </div>
                   </li>
                   <li>
@@ -328,9 +394,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">紫与黑</a>
+                        <a href="javascript:;">时间龙</a>
                       </div>
-                      <div class="author">[英] K.J.帕克</div>
+                      <div class="author">林燿德</div>
                     </div>
                   </li>
                   <li>
@@ -341,9 +407,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">演化之旅</a>
+                        <a href="javascript:;">鲁迅的都市漫游</a>
                       </div>
-                      <div class="author">[美] 罗伯特·克拉克 / 大卫·奎曼 / 约瑟夫·华莱士</div>
+                      <div class="author">[日] 藤井省三</div>
                     </div>
                   </li>
                   <li>
@@ -354,9 +420,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">老鼠洞的大姐猫</a>
+                        <a href="javascript:;">东京二十三区女子</a>
                       </div>
-                      <div class="author">[英] 安东尼娅·巴伯 著 / [英] 妮科拉·贝利 绘</div>
+                      <div class="author">长江俊和</div>
                     </div>
                   </li>
                   <li>
@@ -367,9 +433,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">当代历史哲学和史学理论</a>
+                        <a href="javascript:;">从那霸到上海</a>
                       </div>
-                      <div class="author">王晴佳 / 张旭鹏</div>
+                      <div class="author">孙歌</div>
                     </div>
                   </li>
                   <li>
@@ -380,9 +446,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">战斗妖精·雪风 〈改〉</a>
+                        <a href="javascript:;">寻欢作乐</a>
                       </div>
-                      <div class="author">[日] 神林长平</div>
+                      <div class="author">[英] W.萨默塞特·毛姆</div>
                     </div>
                   </li>
                   <li>
@@ -393,9 +459,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">此时怀抱向谁开</a>
+                        <a href="javascript:;">史诗之城</a>
                       </div>
-                      <div class="author">袁一丹</div>
+                      <div class="author">[美]库沙那瓦•乔杜里（Kushanava Choudhury）</div>
                     </div>
                   </li>
                   <li>
@@ -406,9 +472,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">烧纸</a>
+                        <a href="javascript:;">隐痛</a>
                       </div>
-                      <div class="author">[韩]李沧东</div>
+                      <div class="author">[法]伊内丝·巴亚尔</div>
                     </div>
                   </li>
                   <li>
@@ -419,9 +485,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">阅读的故事</a>
+                        <a href="javascript:;">DK世界家具大百科</a>
                       </div>
-                      <div class="author">唐诺</div>
+                      <div class="author">[英] 朱迪思·米勒</div>
                     </div>
                   </li>
                 </ul>
@@ -434,9 +500,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">天路历程</a>
+                        <a href="javascript:;">暗室手册</a>
                       </div>
-                      <div class="author">[英] 约翰·班扬</div>
+                      <div class="author">[美] 耶日·科辛斯基 (Jerzy Kosinski)</div>
                     </div>
                   </li>
                   <li>
@@ -447,9 +513,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">宫廷社会</a>
+                        <a href="javascript:;">岛屿传说</a>
                       </div>
-                      <div class="author">[德] 诺贝特·埃利亚斯</div>
+                      <div class="author">[英] 马拉奇·泰莱克 / [英] 凯蒂·斯科特</div>
                     </div>
                   </li>
                   <li>
@@ -460,9 +526,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">紫与黑</a>
+                        <a href="javascript:;">民王</a>
                       </div>
-                      <div class="author">[英] K.J.帕克</div>
+                      <div class="author">[日]池井户润</div>
                     </div>
                   </li>
                   <li>
@@ -473,9 +539,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">演化之旅</a>
+                        <a href="javascript:;">混沌互渗</a>
                       </div>
-                      <div class="author">[美] 罗伯特·克拉克 / 大卫·奎曼 / 约瑟夫·华莱士</div>
+                      <div class="author">[法]菲利克斯·加塔利</div>
                     </div>
                   </li>
                   <li>
@@ -486,9 +552,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">老鼠洞的大姐猫</a>
+                        <a href="javascript:;">鞋带</a>
                       </div>
-                      <div class="author">[英] 安东尼娅·巴伯 著 / [英] 妮科拉·贝利 绘</div>
+                      <div class="author">[意] 多梅尼科·斯塔尔诺内</div>
                     </div>
                   </li>
                   <li>
@@ -499,9 +565,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">当代历史哲学和史学理论</a>
+                        <a href="javascript:;">文明、现代化、价值投资与中国</a>
                       </div>
-                      <div class="author">王晴佳 / 张旭鹏</div>
+                      <div class="author">李录</div>
                     </div>
                   </li>
                   <li>
@@ -512,9 +578,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">战斗妖精·雪风 〈改〉</a>
+                        <a href="javascript:;">盲人之歌</a>
                       </div>
-                      <div class="author">[日] 神林长平</div>
+                      <div class="author">[墨西哥] 卡洛斯·富恩特斯</div>
                     </div>
                   </li>
                   <li>
@@ -525,9 +591,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">此时怀抱向谁开</a>
+                        <a href="javascript:;">不要和你妈争辩</a>
                       </div>
-                      <div class="author">袁一丹</div>
+                      <div class="author">[瑞典] 弗雷德里克·巴克曼</div>
                     </div>
                   </li>
                   <li>
@@ -538,9 +604,9 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">烧纸</a>
+                        <a href="javascript:;">刑警罗宋</a>
                       </div>
-                      <div class="author">[韩]李沧东</div>
+                      <div class="author">空城</div>
                     </div>
                   </li>
                   <li>
@@ -551,92 +617,10 @@
                     </div>
                     <div class="info">
                       <div class="titel">
-                        <a href="javascript:;">阅读的故事</a>
+                        <a href="javascript:;">伽达默尔传：理解的善良意志</a>
                       </div>
-                      <div class="author">唐诺</div>
+                      <div class="author">[加]让·格朗丹</div>
                     </div>
-                  </li>
-                </ul>
-                <ul class="slide-item list-col">
-                  <li>
-                    <div class="cover">
-                      <a href="javascript:;">
-                        <img src="@/assets/image/read_express/express1.jpg" alt />
-                      </a>
-                    </div>
-                    <div class="info"></div>
-                  </li>
-                  <li>
-                    <div class="cover">
-                      <a href="javascript:;">
-                        <img src="@/assets/image/read_express/express2.jpg" alt />
-                      </a>
-                    </div>
-                    <div class="info"></div>
-                  </li>
-                  <li>
-                    <div class="cover">
-                      <a href="javascript:;">
-                        <img src="@/assets/image/read_express/express3.jpg" alt />
-                      </a>
-                    </div>
-                    <div class="info"></div>
-                  </li>
-                  <li>
-                    <div class="cover">
-                      <a href="javascript:;">
-                        <img src="@/assets/image/read_express/express4.jpg" alt />
-                      </a>
-                    </div>
-                    <div class="info"></div>
-                  </li>
-                  <li>
-                    <div class="cover">
-                      <a href="javascript:;">
-                        <img src="@/assets/image/read_express/express5.jpg" alt />
-                      </a>
-                    </div>
-                    <div class="info"></div>
-                  </li>
-                  <li>
-                    <div class="cover">
-                      <a href="javascript:;">
-                        <img src="@/assets/image/read_express/express6.jpg" alt />
-                      </a>
-                    </div>
-                    <div class="info"></div>
-                  </li>
-                  <li>
-                    <div class="cover">
-                      <a href="javascript:;">
-                        <img src="@/assets/image/read_express/express7.jpg" alt />
-                      </a>
-                    </div>
-                    <div class="info"></div>
-                  </li>
-                  <li>
-                    <div class="cover">
-                      <a href="javascript:;">
-                        <img src="@/assets/image/read_express/express8.jpg" alt />
-                      </a>
-                    </div>
-                    <div class="info"></div>
-                  </li>
-                  <li>
-                    <div class="cover">
-                      <a href="javascript:;">
-                        <img src="@/assets/image/read_express/express9.jpg" alt />
-                      </a>
-                    </div>
-                    <div class="info"></div>
-                  </li>
-                  <li>
-                    <div class="cover">
-                      <a href="javascript:;">
-                        <img src="@/assets/image/read_express/express10.jpg" alt />
-                      </a>
-                    </div>
-                    <div class="info"></div>
                   </li>
                 </ul>
               </div>
@@ -672,6 +656,9 @@ export default {
   methods: {
     switchPage(tab) {
       this.currentIndex += tab;
+    },
+    Corresponding(index) {
+      this.currentIndex = index;
     }
   }
 };
@@ -781,7 +768,7 @@ export default {
   font: 100 16px Arial;
   line-height: 16px;
   border-radius: 50%;
-  margin-left: 6px;
+  margin-left: 10px;
   background-color: #9b9a8e;
 }
 .slide-dots {
