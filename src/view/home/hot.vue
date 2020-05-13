@@ -1,5 +1,5 @@
 <template>
-  <div class="section">
+  <div class="main-section">
     <div class="warpper">
       <div class="hot-main">
         <span>热点内容……</span>

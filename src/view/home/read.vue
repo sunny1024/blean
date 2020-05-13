@@ -1,5 +1,5 @@
 <template>
-  <div class="section">
+  <div class="main-section">
     <div class="warpper">
       <div class="blean-read-main">
         <div class="side-navbar">

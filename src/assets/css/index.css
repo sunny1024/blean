@@ -2,12 +2,12 @@
   padding-top: 30px;
 }
 
-.section{
+.main-section{
     padding: 10px 0;
     margin-bottom: 30px;
     min-height: 200px;
 }
-.section:nth-child(2n+1){
+.main-section:nth-child(2n+1){
   padding: 40px 0 20px;
     background: #f7f7f7;
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="section">
+  <div class="main-section">
     <div class="warpper">
       <div class="blean-time-nav">
         <h2>豆瓣时间</h2>
