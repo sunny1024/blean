@@ -22,9 +22,20 @@
         </div>
         <!-- 图书信息部分 -->
         <readinformation></readinformation>
+        <!-- 最受关注图书 -->
+        <readconcern></readconcern>
+        <!-- 豆瓣书店 -->
+        <bleanbook></bleanbook>
+        <!-- 电子图书 -->
+        <ebooks></ebooks>
+        <!-- 书评部分 -->
+        <bookview></bookview>
       </div>
       <!-- 右侧内容部分 -->
-      <div class="aside"></div>
+      <div class="aside">
+        <!-- 热门标签 -->
+        <hottag></hottag>
+      </div>
     </div>
   </div>
 </template>
@@ -34,11 +45,21 @@
 import adnav from "./adnav.vue";
 import readexpress from "./readexpress.vue";
 import readinformation from "./readinformation.vue";
+import readconcern from "./readconcern.vue";
+import bleanbook from "./bleanbook.vue";
+import ebooks from "./ebooks.vue";
+import bookview from "./bookview.vue";
+import hottag from "./hottag.vue";
 export default {
   components: {
     adnav,
     readexpress,
-    readinformation
+    readinformation,
+    readconcern,
+    bleanbook,
+    ebooks,
+    bookview,
+    hottag
   },
   data() {
     return {
@@ -66,6 +87,7 @@ export default {
   color: #3377aa;
 }
 #content .artcile {
+  display: inline-block;
   width: 675px;
   padding-right: 40px;
 }

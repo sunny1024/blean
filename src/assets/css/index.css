@@ -1,7 +1,12 @@
 #main {
   padding-top: 30px;
 }
-
+.clearfix:before,.clearfix:after{
+      content:"";
+      display:block;
+      clear:both;
+      height:0;
+}
 .main-section{
     padding: 10px 0;
     margin-bottom: 30px;
@@ -481,7 +486,7 @@ float: left;
 font-size: 12px;
 text-align: center;
 }
-.film-mark .mark-num{
+ .mark-num{
   display: inline-block;
   background: -webkit-image-set(url(../image/film/film-star.jpg) 1x, url(../image/film/film-star2.jpg) 2x) no-repeat;
   width: 55px;
@@ -491,13 +496,16 @@ text-align: center;
 .show-content{
   width: 900px;
 }
-.film-show-content .film-mark .allstar50{
+.allstar50{
 background-position: 0 0px;
 }
-.film-show-content .film-mark .allstar40{
+.allstar40{
 background-position: 0px -22px;
 }
-.film-show-content .film-mark .allstar30{
+.allstar45{
+  background-position:0px -11px;
+}
+ .allstar30{
   background-position: 0px -44px;
 }
 .film-show-content .film-mark .allstar25{
@@ -636,4 +644,13 @@ background-position: 0px -22px;
 }
 .blean-music-main .apps-list .blean-music{
   background-position: -50px 0;
+}
+/* 读书专栏 */
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.aside{
+  float: right;
+  width: 300px;
 }

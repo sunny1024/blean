@@ -165,24 +165,11 @@ export default {
 .section {
   margin-bottom: 50px;
 }
-.hd h2 span:first-child {
-  margin-right: 15px;
-}
-h2 {
-  font-size: 18px;
-  padding-bottom: 3px;
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 16px;
-}
-h2 .link-more {
-  font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 .slide-list {
   position: relative;
   width: 4050px;
   left: 0px;
-  transition: left 0.2s;
 }
 
 .slide-item {
@@ -196,25 +183,11 @@ h2 .link-more {
 .slide-list .list-col {
   margin: 0 25px 0 0;
 }
-.slide-item li {
-  display: inline-block;
-  margin: 0 25px 15px 0;
-}
-.list-col li {
-  width: 115px;
-}
-.slide-item li img {
-  display: block;
-  max-width: 115px;
-  max-height: 172px;
-}
+
 .books-express .carousel {
   height: 489px;
 }
-.carousel {
-  overflow: hidden;
-  position: relative;
-}
+
 .slide-dots {
   display: inline-block;
 }
@@ -243,8 +216,7 @@ h2 {
   margin-bottom: 16px;
 }
 h2 .link-more {
-  font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
+  font: 13px Arial, Helvetica, sans-serif;
 }
 .slide-list {
   position: relative;

@@ -4,7 +4,7 @@
       <h2>
         <span>新书速递</span>
         <span class="link-more">
-          <a href="javascript:;">更多>></a>
+          <a href="javascript:;">更多››</a>
         </span>
       </h2>
       <div class="slide-controls">
@@ -661,8 +661,7 @@ h2 {
   margin-bottom: 16px;
 }
 h2 .link-more {
-  font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
+  font: 13px Arial, Helvetica, sans-serif;
 }
 .slide-list {
   position: relative;
