@@ -612,6 +612,10 @@ export default {
 
 <style scoped>
 /* 新书速递 */
+.books-express .bd a:hover {
+  background-color: #3377aa;
+  color: white;
+}
 .slide-controls {
   float: right;
   margin-top: -42px;
@@ -630,6 +634,9 @@ export default {
   border-radius: 50%;
   margin-left: 10px;
   background-color: #9b9a8e;
+}
+.slide-controls .slide-btns a:hover {
+  opacity: 0.8;
 }
 .slide-dots {
   display: inline-block;
@@ -662,6 +669,10 @@ h2 {
 }
 h2 .link-more {
   font: 13px Arial, Helvetica, sans-serif;
+}
+h2 .link-more a:hover {
+  background-color: #3377aa;
+  color: white;
 }
 .slide-list {
   position: relative;

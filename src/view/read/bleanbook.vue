@@ -100,6 +100,10 @@ export default {};
 </script>
 
 <style scoped>
+.market-books a:hover {
+  background-color: #3377aa;
+  color: white;
+}
 .section {
   margin-bottom: 50px;
 }

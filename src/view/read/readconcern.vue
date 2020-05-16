@@ -262,7 +262,11 @@
 
 
 <style scoped>
-/* 新书速递 */
+/* 最受欢迎图书 */
+.popular-books a:hover {
+  background-color: #3377aa;
+  color: white;
+}
 .slide-controls {
   float: right;
   margin-top: -42px;

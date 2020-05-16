@@ -148,6 +148,10 @@ export default {
   margin-left: 10px;
   background-color: #9b9a8e;
 }
+.slide-controls .slide-btns a:hover {
+  opacity: 0.8;
+}
+
 .slide-controls .slide-dots .active {
   background-color: #9b9a8e;
 }

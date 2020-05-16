@@ -63,6 +63,10 @@ export default {
 .nav a {
   color: #614e3c;
 }
+.nav-items a:hover {
+  background: #614e3c;
+  color: white;
+}
 .nav-wrap {
   border-bottom: 1px solid #e9e9e2;
 }

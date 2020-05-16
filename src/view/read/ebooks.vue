@@ -162,8 +162,11 @@
 </script>
 
 <style scoped>
-/* 新书速递 */
-
+/* 电子图书 */
+.ebook-area a:hover {
+  background-color: #3377aa;
+  color: white;
+}
 .section {
   margin-bottom: 50px;
 }

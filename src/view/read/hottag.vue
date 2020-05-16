@@ -204,7 +204,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .hot-tag {
   margin-top: 30px;
 }
@@ -213,6 +213,10 @@ h2 {
   padding-bottom: 3px;
   border-bottom: 1px solid #ddd;
   margin-bottom: 16px;
+}
+h2 a:hover {
+  background-color: #3377aa;
+  color: white;
 }
 h2 .like-more {
   font: 13px Arial, Helvetica, sans-serif;
@@ -225,24 +229,28 @@ h2 .like-more {
   margin-bottom: 15px;
   border-bottom: 1px dashed #ddd;
 }
-.hot-tags-col .clearfix {
+.hot-tags-col ul {
   width: 290px;
 }
-.hot-tags-col .clearfix .title {
+.hot-tags-col ul .title {
   display: block;
   float: none;
   margin-bottom: 0;
 }
-.hot-tags-col .clearfix li {
+.hot-tags-col ul li {
   float: left;
   font-size: 13px;
   margin-bottom: 5px;
 }
-.hot-tags-col .clearfix .tag {
+.hot-tags-col ul .tag {
   background: #f5f5f5;
   margin-right: 3px;
   padding: 2px 10px 0;
   display: inline-block;
+}
+.hot-tags-col ul .tag:hover {
+  background-color: #e8e8e8;
+  color: #37a;
 }
 .hot-tags-col .last .tag {
   color: #f5f5f5;

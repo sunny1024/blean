@@ -1,8 +1,8 @@
 <template>
-  <div class="section">
+  <div class="section book_view">
     <div class="hd">
       <h2>
-        <span>最受关注图书榜</span>
+        <span>最受欢迎的书评</span>
         <span class="link-more">
           <a href="javascript:;">虚构类››</a>
           <a href="javascript:;">非虚构类››</a>
@@ -21,9 +21,9 @@
             <a href="javascript:;">建 政 圈 现 状</a>
           </h3>
           <div class="review-meta">
-            <a href="javascript:;" style="color:#666">早见堇</a>
+            <a href="javascript:;">早见堇</a>
             评论
-            <a href="javascript:;" style="color:#666">《群魔》</a>
+            <a href="javascript:;">《群魔》</a>
             <span class="mark-num allstar50"></span>
           </div>
           <div class="review-content">
@@ -45,9 +45,9 @@
             <a href="javascript:;">个别译文勘误</a>
           </h3>
           <div class="review-meta">
-            <a href="javascript:;" style="color:#666">玄嘗譯</a>
+            <a href="javascript:;">玄嘗譯</a>
             评论
-            <a href="javascript:;" style="color:#666">《形而上学》</a>
+            <a href="javascript:;">《形而上学》</a>
             <span class="mark-num allstar50"></span>
           </div>
           <div class="review-content">
@@ -69,9 +69,9 @@
             <a href="javascript:;">【推迷会鉴书团】东野圭吾的雪国之“结”</a>
           </h3>
           <div class="review-meta">
-            <a href="javascript:;" style="color:#666">展颜</a>
+            <a href="javascript:;">展颜</a>
             评论
-            <a href="javascript:;" style="color:#666">《雪国之劫》</a>
+            <a href="javascript:;">《雪国之劫》</a>
             <span class="mark-num allstar40"></span>
           </div>
           <div class="review-content">
@@ -93,14 +93,16 @@
             <a href="javascript:;">01 处理三明治和烟熏鸭肉，包括和欲望有关的一切</a>
           </h3>
           <div class="review-meta">
-            <a href="javascript:;" style="color:#666">fushia</a>
+            <a href="javascript:;">fushia</a>
             评论
-            <a href="javascript:;" style="color:#666">《一个知识女性的思考系列》</a>
+            <a href="javascript:;">《一个知识女性的思考系列》</a>
             <span class="mark-num allstar50"></span>
           </div>
           <div class="review-content">
             “某一天他坐在办公室里，正在机械地咀嚼附近商店里买来的处理奶酪三明治，突然想到自己其实可以吃更好的东西。”随后他开始对烹调产生兴趣，喜欢并热衷于研究精美的食物，比如在花园中种下少见的药草和小众的蔬...
-            <a href="javascript:;">(全文)</a>
+            <a
+              href="javascript:;"
+            >(全文)</a>
           </div>
         </div>
       </div>
@@ -112,6 +114,10 @@ export default {};
 </script>
 
 <style scoped>
+.book_view a:hover {
+  background: #3377aa;
+  color: white;
+}
 .section {
   margin-bottom: 50px;
 }
@@ -157,7 +163,7 @@ h2 span a:first-child {
   color: #666;
   font-size: 13px;
 }
-.review-bd .review-meta a {
+.review-meta a {
   color: #666;
 }
 .review-bd .review-content {

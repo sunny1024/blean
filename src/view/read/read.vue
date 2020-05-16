@@ -9,7 +9,7 @@
       </a>
     </div>
     <!-- 主体内容 -->
-    <div id="content">
+    <div class="main-content">
       <!-- 左侧内容部分 -->
       <div class="artcile">
         <!-- 新书速递 -->
@@ -35,6 +35,14 @@
       <div class="aside">
         <!-- 热门标签 -->
         <hottag></hottag>
+        <!-- 畅销图书榜 -->
+        <sellwell></sellwell>
+        <!-- 图书250 -->
+        <blean250></blean250>
+        <!-- 联系我们 -->
+        <contact></contact>
+        <!-- 关注我们 -->
+        <follow></follow>
       </div>
     </div>
   </div>
@@ -50,6 +58,10 @@ import bleanbook from "./bleanbook.vue";
 import ebooks from "./ebooks.vue";
 import bookview from "./bookview.vue";
 import hottag from "./hottag.vue";
+import sellwell from "./sellwell.vue";
+import blean250 from "./blean250.vue";
+import contact from "./contact.vue";
+import follow from "./follow.vue";
 export default {
   components: {
     adnav,
@@ -59,7 +71,11 @@ export default {
     bleanbook,
     ebooks,
     bookview,
-    hottag
+    hottag,
+    sellwell,
+    blean250,
+    contact,
+    follow
   },
   data() {
     return {
@@ -79,14 +95,14 @@ export default {
 }
 
 /* 主体部分 左侧边栏 */
-#content {
+.main-content {
   width: 1040px;
   margin: 0 auto;
 }
-#content a {
+.main-content a {
   color: #3377aa;
 }
-#content .artcile {
+.main-content .artcile {
   display: inline-block;
   width: 675px;
   padding-right: 40px;
