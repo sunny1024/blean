@@ -13,6 +13,13 @@ Vue.use(Router)
 import layoutA from '@/components/layout/layoutA.vue'
 import layoutB from '@/components/layout/layoutB.vue'
 
+
+
+import Common from '@/components/layout/common-card.vue'
+Vue.component('commonCard', Common)
+
+
+
 const routes = [
   {
     path: '/',

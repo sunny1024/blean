@@ -98,12 +98,17 @@ export default {
   height: 56px;
   width: 145px;
   margin: 0 13px 0 0;
-  background: url("~@/assets/image/read_all/readpg/read_logo1.jpg")
-    center/contain no-repeat;
+  background: url("~@/assets/image/music/music_logo/music_logo1.jpg") no-repeat
+    0 12px;
+  background-image: -webkit-image-set(
+    url(~@/assets/image/music/music_logo/music_logo1.jpg) 1x,
+    url(~@/assets/image/music/music_logo/music_logo2.jpg) 2x
+  );
 }
 
 .nav-search {
   width: 48%;
+  margin-top: -12px;
 }
 .nav-secondary {
   width: 1040px;
@@ -134,7 +139,11 @@ export default {
   top: 15px;
   margin-left: 400px;
   left: 50%;
-  background: url("~@/assets/image/read_all/readpg/read_top.jpg") center/contain
+  background: url("~@/assets/image/music/music_bg/music_bg.jpg") center/contain
     no-repeat;
+}
+.el-input__inner {
+  height: 35px;
+  line-height: 35px;
 }
 </style>
