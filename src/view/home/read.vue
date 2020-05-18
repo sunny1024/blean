@@ -45,7 +45,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/read/read.jpg" alt />
+                  <img src="@/assets/image/home/read/read.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -59,7 +59,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/read/read1.jpg" alt />
+                  <img src="@/assets/image/home/read/read1.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -73,7 +73,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/read/read2.jpg" alt />
+                  <img src="@/assets/image/home/read/read2.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -87,7 +87,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/read/read3.jpg" alt />
+                  <img src="@/assets/image/home/read/read3.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -107,7 +107,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/read/read4.jpg" alt />
+                  <img src="@/assets/image/home/read/read4.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -121,7 +121,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/read/read5.jpg" alt />
+                  <img src="@/assets/image/home/read/read5.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -135,7 +135,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/read/read6.jpg" alt />
+                  <img src="@/assets/image/home/read/read6.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -149,7 +149,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/read/read7.jpg" alt />
+                  <img src="@/assets/image/home/read/read7.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">

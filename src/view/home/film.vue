@@ -42,7 +42,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/film/film1.jpg" alt />
+                  <img src="@/assets/image/home/film/film1.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -59,7 +59,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/film/film2.jpg" alt />
+                  <img src="@/assets/image/home/film/film2.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -76,7 +76,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/film/film3.jpg" alt />
+                  <img src="@/assets/image/home/film/film3.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -93,7 +93,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/film/film4.jpg" alt />
+                  <img src="@/assets/image/home/film/film4.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -110,7 +110,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/film/film5.jpg" alt />
+                  <img src="@/assets/image/home/film/film5.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -127,7 +127,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/film/film6.jpg" alt />
+                  <img src="@/assets/image/home/film/film6.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">
@@ -144,7 +144,7 @@
             <li>
               <div class="pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/film/film7.jpg" alt />
+                  <img src="@/assets/image/home/film/film7.jpg" alt />
                 </a>
               </div>
               <div class="film-fame">

@@ -1,9 +1,16 @@
 <template>
-  <div>音乐相关内容</div>
+  <div>
+    <adnavMusic></adnavMusic>
+  </div>
 </template>
 
 <script>
-export default {};
+import adnavMusic from "@/components/adnav/adnav_music.vue";
+export default {
+  components: {
+    adnavMusic
+  }
+};
 </script>
 
 <style>

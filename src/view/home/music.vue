@@ -72,7 +72,7 @@
             <li>
               <div class="music-pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/music/music-foucs1.jpg" alt />
+                  <img src="@/assets/image/home/music/music-foucs1.jpg" alt />
                   <i></i>
                 </a>
               </div>
@@ -83,7 +83,7 @@
             <li>
               <div class="music-pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/music/music_foucs2.jpg" alt />
+                  <img src="@/assets/image/home/music/music_foucs2.jpg" alt />
                   <i></i>
                 </a>
               </div>
@@ -94,7 +94,7 @@
             <li>
               <div class="music-pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/music/music_foucs3.jpg" alt />
+                  <img src="@/assets/image/home/music/music_foucs3.jpg" alt />
                   <i></i>
                 </a>
               </div>
@@ -105,7 +105,7 @@
             <li>
               <div class="music-pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/music/music_foucs4.jpg" alt />
+                  <img src="@/assets/image/home/music/music_foucs4.jpg" alt />
                   <i></i>
                 </a>
               </div>
@@ -116,7 +116,7 @@
             <li>
               <div class="music-pic">
                 <a href="javascript:;">
-                  <img src="@/assets/image/music/music_foucs5.jpg" alt />
+                  <img src="@/assets/image/home/music/music_foucs5.jpg" alt />
                   <i></i>
                 </a>
               </div>
@@ -138,7 +138,7 @@
                   <span class="num">1.</span>
                   <div class="music-cover">
                     <a href="javascript:;">
-                      <img src="@/assets/image/music/music_logo1.jpg" alt />
+                      <img src="@/assets/image/home/music/music_logo1.jpg" alt />
                     </a>
                   </div>
                   <div class="music-introduce">
@@ -153,7 +153,7 @@
                   <span class="num">2.</span>
                   <div class="music-cover">
                     <a href="javascript:;">
-                      <img src="@/assets/image/music/music_logo2.jpg" alt />
+                      <img src="@/assets/image/home/music/music_logo2.jpg" alt />
                     </a>
                   </div>
                   <div class="music-introduce">
@@ -168,7 +168,7 @@
                   <span class="num">3.</span>
                   <div class="music-cover">
                     <a href="javascript:;">
-                      <img src="@/assets/image/music/music_logo3.jpg" alt />
+                      <img src="@/assets/image/home/music/music_logo3.jpg" alt />
                     </a>
                   </div>
                   <div class="music-introduce">
@@ -183,7 +183,7 @@
                   <span class="num">4.</span>
                   <div class="music-cover">
                     <a href="javascript:;">
-                      <img src="@/assets/image/music/music_logo4.jpg" alt />
+                      <img src="@/assets/image/home/music/music_logo4.jpg" alt />
                     </a>
                   </div>
                   <div class="music-introduce">
@@ -198,7 +198,7 @@
                   <span class="num">5.</span>
                   <div class="music-cover">
                     <a href="javascript:;">
-                      <img src="@/assets/image/music/music_logo5.jpg" alt />
+                      <img src="@/assets/image/home/music/music_logo5.jpg" alt />
                     </a>
                   </div>
                   <div class="music-introduce">

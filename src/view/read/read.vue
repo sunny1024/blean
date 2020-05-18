@@ -5,7 +5,7 @@
     <!-- 广告图 -->
     <div class="read-banner">
       <a href="javascript:;">
-        <img src="@/assets/image/readpg/banner.jpg" alt />
+        <img src="@/assets/image/read_all/readpg/banner.jpg" alt />
       </a>
     </div>
     <!-- 主体内容 -->
@@ -17,7 +17,7 @@
         <!-- 广告图占位部分 -->
         <div class="ad-placeholder">
           <a href="javascript:;">
-            <img src="@/assets/image/placeholder.jpg" alt />
+            <img src="@/assets/image/read_all/placeholder.jpg" alt />
           </a>
         </div>
         <!-- 图书信息部分 -->
@@ -50,7 +50,7 @@
 
 
 <script>
-import adnav from "./adnav.vue";
+import adnav from "@/components/adnav/adnav_read.vue";
 import readexpress from "./readexpress.vue";
 import readinformation from "./readinformation.vue";
 import readconcern from "./readconcern.vue";

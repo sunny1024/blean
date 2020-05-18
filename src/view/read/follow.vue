@@ -46,11 +46,7 @@ h2 {
   font-size: 12px;
   margin-bottom: 30px;
 }
-.bd img {
-  height: 12px;
-  margin-top: -2px;
-  vertical-align: middle;
-}
+
 .embassy-list {
   display: flex;
 }
@@ -65,20 +61,20 @@ h2 {
 }
 .embassy-list .pic1 {
   background-image: -webkit-image-set(
-    url(~@/assets/image/home_site/home_site.jpg) 1x,
-    url(~@/assets/image/home_site/home_site@2x.jpg) 2x
+    url(~@/assets/image/read_all/home_site/home_site.jpg) 1x,
+    url(~@/assets/image/read_all/home_site/home_site@2x.jpg) 2x
   );
 }
 .embassy-list .pic2 {
   background-image: -webkit-image-set(
-    url(~@/assets/image/home_site/home_weibo.jpg) 1x,
-    url(~@/assets/image/home_site/home_weibo@2x.jpg) 2x
+    url(~@/assets/image/read_all/home_site/home_weibo.jpg) 1x,
+    url(~@/assets/image/read_all/home_site/home_weibo@2x.jpg) 2x
   );
 }
 .embassy-list .pic3 {
   background-image: -webkit-image-set(
-    url(~@/assets/image/home_site/home_weixin.jpg) 1x,
-    url(~@/assets/image/home_site/home_weixin@2x.jpg) 2x
+    url(~@/assets/image/read_all/home_site/home_weixin.jpg) 1x,
+    url(~@/assets/image/read_all/home_site/home_weixin@2x.jpg) 2x
   );
 }
 </style>

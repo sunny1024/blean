@@ -7,7 +7,7 @@
             <a href="javascript:;"></a>
           </div>
           <div class="nav-search">
-            <el-input placeholder="书名、作者、ISBN" v-model="input3" class="input-with-select">
+            <el-input placeholder="唱片名、表演者、条码、ISRC" v-model="input3" class="input-with-select">
               <el-button slot="append" icon="el-icon-search"></el-button>
             </el-input>
           </div>
@@ -18,23 +18,37 @@
       <div class="nav-items">
         <ul>
           <li>
-            <a href="javascript:;">购书单</a>
+            <a href="javascript:;">音乐人</a>
           </li>
           <li>
-            <a href="javascript:;">电子图书</a>
+            <a href="javascript:;">潮潮豆瓣音乐周</a>
           </li>
           <li>
-            <a href="javascript:;">豆瓣书店</a>
+            <a href="javascript:;">金羊毛计划</a>
+          </li>
+          <li>
+            <a href="javascript:;">专题</a>
+          </li>
+          <li>
+            <a href="javascript:;">排行榜</a>
+          </li>
+          <li>
+            <a href="javascript:;">分类浏览</a>
+          </li>
+          <li>
+            <a href="javascript:;">乐评</a>
+          </li>
+          <li>
+            <a href="javascript:;">豆瓣FM</a>
+          </li>
+          <li>
+            <a href="javascript:;">歌单</a>
           </li>
           <li>
             <a href="javascript:;">2019年度榜单</a>
           </li>
           <li>
-            <a href="javascript:;">2019书影音报告</a>
-          </li>
-          <li>
-            <i class="el-icon-shopping-cart-2" style="font-size:16px"></i>
-            <a href="javascript:;">购物车</a>
+            <a href="javascript:;">阿比鹿音乐奖</a>
           </li>
         </ul>
       </div>
@@ -42,7 +56,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   data() {
@@ -52,7 +65,6 @@ export default {
   }
 };
 </script>
-
 <style >
 .nav {
   position: relative;
@@ -61,10 +73,10 @@ export default {
   margin-bottom: 40px;
 }
 .nav a {
-  color: #614e3c;
+  color: #555d53;
 }
 .nav-items a:hover {
-  background: #614e3c;
+  background: #555d53;
   color: white;
 }
 .nav-wrap {
@@ -86,8 +98,8 @@ export default {
   height: 56px;
   width: 145px;
   margin: 0 13px 0 0;
-  background: url("~@/assets/image/readpg/read_logo1.jpg") center/contain
-    no-repeat;
+  background: url("~@/assets/image/read_all/readpg/read_logo1.jpg")
+    center/contain no-repeat;
 }
 
 .nav-search {
@@ -119,10 +131,10 @@ export default {
   position: absolute;
   width: 186px;
   height: 96px;
-  top: 10px;
-  margin-left: 320px;
+  top: 15px;
+  margin-left: 400px;
   left: 50%;
-  background: url("~@/assets/image/readpg/read_top.jpg") center/contain
+  background: url("~@/assets/image/read_all/readpg/read_top.jpg") center/contain
     no-repeat;
 }
 </style>

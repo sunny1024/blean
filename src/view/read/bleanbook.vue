@@ -28,7 +28,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/blean_book/blean_book1.jpg" alt />
+              <img src="@/assets/image/read_all/blean_book/blean_book1.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -41,7 +41,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/blean_book/blean_book2.jpg" alt />
+              <img src="@/assets/image/read_all/blean_book/blean_book2.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -54,7 +54,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/blean_book/blean_book3.jpg" alt />
+              <img src="@/assets/image/read_all/blean_book/blean_book3.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -67,7 +67,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/blean_book/blean_book4.jpg" alt />
+              <img src="@/assets/image/read_all/blean_book/blean_book4.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -80,7 +80,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/blean_book/blean_book5.jpg" alt />
+              <img src="@/assets/image/read_all/blean_book/blean_book5.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -168,7 +168,7 @@ h2 .link-more {
   vertical-align: top;
 }
 .cover .pic {
-  background-image: url("~@/assets/image/blean_book/blean_book.jpg");
+  background-image: url("~@/assets/image/read_all/blean_book/blean_book.jpg");
   width: 130px;
   height: 172px;
   background-position: center center;

@@ -269,15 +269,15 @@ h2 .link-more {
   background-repeat: no-repeat;
 }
 .info-block .pct1 {
-  background-image: url("~@/assets/image/read_information/read_information1.jpg");
+  background-image: url("~@/assets/image/read_all/read_information/read_information1.jpg");
 }
 .info-block .pct2 {
-  background-image: url("~@/assets/image/read_information/read_information2.jpg");
+  background-image: url("~@/assets/image/read_all/read_information/read_information2.jpg");
 }
 .info-block .pct3 {
-  background-image: url("~@/assets/image/read_information/read_information3.jpg");
+  background-image: url("~@/assets/image/read_all/read_information/read_information3.jpg");
 }
 .info-block .pct4 {
-  background-image: url("~@/assets/image/read_information/read_information4.jpg");
+  background-image: url("~@/assets/image/read_all/read_information/read_information4.jpg");
 }
 </style>

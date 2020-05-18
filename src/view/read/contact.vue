@@ -7,7 +7,7 @@
     </div>
     <div class="bd">
       <span>合作联系：</span>
-      <img src="@/assets/image/email_book.jpg" />
+      <img src="@/assets/image/read_all/email_book.jpg" />
     </div>
   </div>
 </template>

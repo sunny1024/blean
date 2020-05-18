@@ -8,11 +8,11 @@
     <div class="bd">
       <ul class="sell-well-log clearfix">
         <li class="nav-jd">
-          <img src="@/assets/image/sell_well/sell-well1.jpg" alt />
+          <img src="@/assets/image/read_all/sell_well/sell-well1.jpg" alt />
           <span>京东</span>
         </li>
         <li class="nav-dd">
-          <img src="@/assets/image/sell_well/sell_well2.jpg" alt />
+          <img src="@/assets/image/read_all/sell_well/sell_well2.jpg" alt />
           <span>当当</span>
         </li>
       </ul>

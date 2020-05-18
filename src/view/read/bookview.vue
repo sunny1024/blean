@@ -13,7 +13,7 @@
       <div class="review">
         <div class="review-hd">
           <a href="javascript:;">
-            <img src="@/assets/image/bookview/bookview1.jpg" alt />
+            <img src="@/assets/image/read_all/bookview/bookview1.jpg" alt />
           </a>
         </div>
         <div class="review-bd">
@@ -37,7 +37,7 @@
       <div class="review">
         <div class="review-hd">
           <a href="javascript:;">
-            <img src="@/assets/image/bookview/bookview2.jpg" alt />
+            <img src="@/assets/image/read_all/bookview/bookview2.jpg" alt />
           </a>
         </div>
         <div class="review-bd">
@@ -61,7 +61,7 @@
       <div class="review">
         <div class="review-hd">
           <a href="javascript:;">
-            <img src="@/assets/image/bookview/bookview3.jpg" alt />
+            <img src="@/assets/image/read_all/bookview/bookview3.jpg" alt />
           </a>
         </div>
         <div class="review-bd">
@@ -85,7 +85,7 @@
       <div class="review">
         <div class="review-hd">
           <a href="javascript:;">
-            <img src="@/assets/image/bookview/bookview4.jpg" alt />
+            <img src="@/assets/image/read_all/bookview/bookview4.jpg" alt />
           </a>
         </div>
         <div class="review-bd">

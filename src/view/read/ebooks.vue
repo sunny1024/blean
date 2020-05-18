@@ -25,7 +25,7 @@
             <li>
               <div class="cover">
                 <a href="javascript:;">
-                  <img src="@/assets/image/ebook/ebook1.jpg" alt />
+                  <img src="@/assets/image/read_all/ebook/ebook1.jpg" alt />
                 </a>
               </div>
               <div class="info">
@@ -38,7 +38,7 @@
             <li>
               <div class="cover">
                 <a href="javascript:;">
-                  <img src="@/assets/image/ebook/ebook2.jpg" alt />
+                  <img src="@/assets/image/read_all/ebook/ebook2.jpg" alt />
                 </a>
               </div>
               <div class="info">
@@ -51,7 +51,7 @@
             <li>
               <div class="cover">
                 <a href="javascript:;">
-                  <img src="@/assets/image/ebook/ebook3.jpg" alt />
+                  <img src="@/assets/image/read_all/ebook/ebook3.jpg" alt />
                 </a>
               </div>
               <div class="info">
@@ -64,7 +64,7 @@
             <li>
               <div class="cover">
                 <a href="javascript:;">
-                  <img src="@/assets/image/ebook/ebook4.jpg" alt />
+                  <img src="@/assets/image/read_all/ebook/ebook4.jpg" alt />
                 </a>
               </div>
               <div class="info">
@@ -77,7 +77,7 @@
             <li>
               <div class="cover">
                 <a href="javascript:;">
-                  <img src="@/assets/image/ebook/ebook5.jpg" alt />
+                  <img src="@/assets/image/read_all/ebook/ebook5.jpg" alt />
                 </a>
               </div>
               <div class="info">
@@ -90,7 +90,7 @@
             <li>
               <div class="cover">
                 <a href="javascript:;">
-                  <img src="@/assets/image/ebook/ebook6.jpg" alt />
+                  <img src="@/assets/image/read_all/ebook/ebook6.jpg" alt />
                 </a>
               </div>
               <div class="info">
@@ -103,7 +103,7 @@
             <li>
               <div class="cover">
                 <a href="javascript:;">
-                  <img src="@/assets/image/ebook/ebook7.jpg" alt />
+                  <img src="@/assets/image/read_all/ebook/ebook7.jpg" alt />
                 </a>
               </div>
               <div class="info">
@@ -116,7 +116,7 @@
             <li>
               <div class="cover">
                 <a href="javascript:;">
-                  <img src="@/assets/image/ebook/ebook8.jpg" alt />
+                  <img src="@/assets/image/read_all/ebook/ebook8.jpg" alt />
                 </a>
               </div>
               <div class="info">
@@ -129,7 +129,7 @@
             <li>
               <div class="cover">
                 <a href="javascript:;">
-                  <img src="@/assets/image/ebook/ebook9.jpg" alt />
+                  <img src="@/assets/image/read_all/ebook/ebook9.jpg" alt />
                 </a>
               </div>
               <div class="info">
@@ -142,7 +142,7 @@
             <li>
               <div class="cover">
                 <a href="javascript:;">
-                  <img src="@/assets/image/ebook/ebook10.jpg" alt />
+                  <img src="@/assets/image/read_all/ebook/ebook10.jpg" alt />
                 </a>
               </div>
               <div class="info">

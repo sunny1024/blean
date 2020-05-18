@@ -10,7 +10,7 @@
       <li>
         <div class="book-pic"></div>
         <a href="javascript:;">
-          <img src="@/assets/image/book250/book250_1.jpg" alt />
+          <img src="@/assets/image/read_all/book250/book250_1.jpg" alt />
         </a>
         <div class="book-info">
           <a href="javascript:;">历史深处的忧虑</a>
@@ -19,7 +19,7 @@
       <li>
         <div class="book-pic"></div>
         <a href="javascript:;">
-          <img src="@/assets/image/book250/book250_2.jpg" alt />
+          <img src="@/assets/image/read_all/book250/book250_2.jpg" alt />
         </a>
         <div class="book-info">
           <a href="javascript:;">不能承受的生命之轻</a>
@@ -28,7 +28,7 @@
       <li>
         <div class="book-pic">
           <a href="javascript:;">
-            <img src="@/assets/image/book250/book250_3.jpg" alt />
+            <img src="@/assets/image/read_all/book250/book250_3.jpg" alt />
           </a>
         </div>
         <div class="book-info">
@@ -38,7 +38,7 @@
       <li>
         <div class="book-pic"></div>
         <a href="javascript:;">
-          <img src="@/assets/image/book250/book250_4.jpg" alt />
+          <img src="@/assets/image/read_all/book250/book250_4.jpg" alt />
         </a>
         <div class="book-info">
           <a href="javascript:;">解忧杂货店</a>
@@ -47,7 +47,7 @@
       <li>
         <div class="book-pic"></div>
         <a href="javascript:;">
-          <img src="@/assets/image/book250/book250_5.jpg" alt />
+          <img src="@/assets/image/read_all/book250/book250_5.jpg" alt />
         </a>
         <div class="book-info">
           <a href="javascript:;">西方哲学史（上卷）</a>
@@ -56,7 +56,7 @@
       <li>
         <div class="book-pic"></div>
         <a href="javascript:;">
-          <img src="@/assets/image/book250/book250_6.jpg" alt />
+          <img src="@/assets/image/read_all/book250/book250_6.jpg" alt />
         </a>
         <div class="book-info">
           <a href="javascript:;">沉默的大多数</a>
@@ -65,7 +65,7 @@
       <li>
         <div class="book-pic"></div>
         <a href="javascript:;">
-          <img src="@/assets/image/book250/book250_7.jpg" alt />
+          <img src="@/assets/image/read_all/book250/book250_7.jpg" alt />
         </a>
         <div class="book-info">
           <a href="javascript:;">骆驼祥子</a>
@@ -74,7 +74,7 @@
       <li>
         <div class="book-pic"></div>
         <a href="javascript:;">
-          <img src="@/assets/image/book250/book250_8.jpg" alt />
+          <img src="@/assets/image/read_all/book250/book250_8.jpg" alt />
         </a>
         <div class="book-info">
           <a href="javascript:;">射雕英雄传（全四册）</a>
@@ -83,7 +83,7 @@
       <li>
         <div class="book-pic"></div>
         <a href="javascript:;">
-          <img src="@/assets/image/book250/book250_9.jpg" alt />
+          <img src="@/assets/image/read_all/book250/book250_9.jpg" alt />
         </a>
         <div class="book-info">
           <a href="javascript:;">边城</a>

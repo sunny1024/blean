@@ -12,9 +12,9 @@
           <ul>
             <li>
               <a href="javascript:;">
-                <img class="time-cover" src="@/assets/image/time/time1.jpg" />
+                <img class="time-cover" src="@/assets/image/home/time/time1.jpg" />
                 <i>
-                  <img class="time-icon" src="@/assets/image/time/time-music.jpg" />
+                  <img class="time-icon" src="@/assets/image/home/time/time-music.jpg" />
                 </i>
               </a>
               <div class="time-dirct">
@@ -26,9 +26,9 @@
             </li>
             <li>
               <a href="javascript:;">
-                <img class="time-cover" src="@/assets/image/time/time2.jpg" alt />
+                <img class="time-cover" src="@/assets/image/home/time/time2.jpg" alt />
                 <i>
-                  <img class="time-icon" src="@/assets/image/time/time-music.jpg" />
+                  <img class="time-icon" src="@/assets/image/home/time/time-music.jpg" />
                 </i>
               </a>
               <div class="time-dirct">
@@ -40,9 +40,9 @@
             </li>
             <li>
               <a href="javascript:;">
-                <img class="time-cover" src="@/assets/image/time/time3.jpg" alt />
+                <img class="time-cover" src="@/assets/image/home/time/time3.jpg" alt />
                 <i>
-                  <img class="time-icon" src="@/assets/image/time/time-music.jpg" />
+                  <img class="time-icon" src="@/assets/image/home/time/time-music.jpg" />
                 </i>
               </a>
               <div class="time-dirct">
@@ -54,9 +54,9 @@
             </li>
             <li>
               <a href="javascript:;">
-                <img class="time-cover" src="@/assets/image/time/time4.jpg" alt />
+                <img class="time-cover" src="@/assets/image/home/time/time4.jpg" alt />
                 <i>
-                  <img class="time-icon" src="@/assets/image/time/time-music.jpg" />
+                  <img class="time-icon" src="@/assets/image/home/time/time-music.jpg" />
                 </i>
               </a>
               <div class="time-dirct">
@@ -68,9 +68,9 @@
             </li>
             <li>
               <a href="javascript:;">
-                <img class="time-cover" src="@/assets/image/time/time5.jpg" alt />
+                <img class="time-cover" src="@/assets/image/home/time/time5.jpg" alt />
                 <i>
-                  <img class="time-icon" src="@/assets/image/time/time-music.jpg" />
+                  <img class="time-icon" src="@/assets/image/home/time/time-music.jpg" />
                 </i>
               </a>
               <div class="time-dirct">
@@ -82,9 +82,9 @@
             </li>
             <li>
               <a href="javascript:;">
-                <img class="time-cover" src="@/assets/image/time/time6.jpg" alt />
+                <img class="time-cover" src="@/assets/image/home/time/time6.jpg" alt />
                 <i>
-                  <img class="time-icon" src="@/assets/image/time/time-movie.jpg" />
+                  <img class="time-icon" src="@/assets/image/home/time/time-movie.jpg" />
                 </i>
               </a>
               <div class="time-dirct">
@@ -96,9 +96,9 @@
             </li>
             <li>
               <a href="javascript:;">
-                <img class="time-cover" src="@/assets/image/time/time7.jpg" alt />
+                <img class="time-cover" src="@/assets/image/home/time/time7.jpg" alt />
                 <i>
-                  <img class="time-icon" src="@/assets/image/time/time-movie.jpg" />
+                  <img class="time-icon" src="@/assets/image/home/time/time-movie.jpg" />
                 </i>
               </a>
               <div class="time-dirct">
@@ -110,9 +110,9 @@
             </li>
             <li>
               <a href="javascript:;">
-                <img class="time-cover" src="@/assets/image/time/time8.jpg" alt />
+                <img class="time-cover" src="@/assets/image/home/time/time8.jpg" alt />
                 <i>
-                  <img class="time-icon" src="@/assets/image/time/time-music.jpg" />
+                  <img class="time-icon" src="@/assets/image/home/time/time-music.jpg" />
                 </i>
               </a>
               <div class="time-dirct">
@@ -124,9 +124,9 @@
             </li>
             <li>
               <a href="javascript:;">
-                <img class="time-cover" src="@/assets/image/time/time9.jpg" alt />
+                <img class="time-cover" src="@/assets/image/home/time/time9.jpg" alt />
                 <i>
-                  <img class="time-icon" src="@/assets/image/time/time-music.jpg" />
+                  <img class="time-icon" src="@/assets/image/home/time/time-music.jpg" />
                 </i>
               </a>
               <div class="time-dirct">
@@ -138,9 +138,9 @@
             </li>
             <li>
               <a href="javascript:;">
-                <img class="time-cover" src="@/assets/image/time/time10.jpg" alt />
+                <img class="time-cover" src="@/assets/image/home/time/time10.jpg" alt />
                 <i>
-                  <img class="time-icon" src="@/assets/image/time/time-music.jpg" />
+                  <img class="time-icon" src="@/assets/image/home/time/time-music.jpg" />
                 </i>
               </a>
               <div class="time-dirct">

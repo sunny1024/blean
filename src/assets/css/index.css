@@ -30,7 +30,7 @@ margin: 0 auto;
   display: inline-block;
   border-radius: 10px;
   box-shadow: 1px 1px 2px #999;
-  background: url(../image/public_icon.jpg);
+  background: url(../image/home/public_icon.jpg);
   width: 50px;
   height: 50px;
 }
@@ -100,7 +100,7 @@ font-family: sans-serif;
 
 /* 注册登录模块 */
 .banner{
-  background: url(../image/bg.jpg) no-repeat;
+  background: url(../image/home/bg.jpg) no-repeat;
   background-size: contain;
   background-color: #edf4ed;;
 }
@@ -488,7 +488,7 @@ text-align: center;
 }
  .mark-num{
   display: inline-block;
-  background: -webkit-image-set(url(../image/film/film-star.jpg) 1x, url(../image/film/film-star2.jpg) 2x) no-repeat;
+  background: -webkit-image-set(url(../image/home/film/film-star.jpg) 1x, url(../image/home/film/film-star2.jpg) 2x) no-repeat;
   width: 55px;
   height: 11px;
   margin-right: 3px ;
@@ -620,7 +620,7 @@ background-position: 0px -22px;
   height: 80px;
   left: 25px;
   background-position: 50% 50%;
-  background-image: -webkit-image-set(url(../image/music/music_play1.jpg) 1x, url(../image/music/music_play2.jpg) 2x);
+  background-image: -webkit-image-set(url(../image/home/music/music_play1.jpg) 1x, url(../image/home/music/music_play2.jpg) 2x);
   background-repeat: no-repeat;
 }
 .blean-music-main .music-pic img{

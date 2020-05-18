@@ -14,7 +14,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/read_concern/read_concern1.jpg" alt />
+              <img src="@/assets/image/read_all/read_concern/read_concern1.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -37,7 +37,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/read_concern/read_concern2.jpg" alt />
+              <img src="@/assets/image/read_all/read_concern/read_concern2.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -60,7 +60,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/read_concern/read_concern3.jpg" alt />
+              <img src="@/assets/image/read_all/read_concern/read_concern3.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -83,7 +83,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/read_concern/read_concern4.jpg" alt />
+              <img src="@/assets/image/read_all/read_concern/read_concern4.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -106,7 +106,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/read_concern/read_concern5.jpg" alt />
+              <img src="@/assets/image/read_all/read_concern/read_concern5.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -132,7 +132,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/read_concern/read_concern6.jpg" alt />
+              <img src="@/assets/image/read_all/read_concern/read_concern6.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -155,7 +155,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/read_concern/read_concern7.jpg" alt />
+              <img src="@/assets/image/read_all/read_concern/read_concern7.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -177,7 +177,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/read_concern/read_concern8.jpg" alt />
+              <img src="@/assets/image/read_all/read_concern/read_concern8.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -203,7 +203,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/read_concern/read_concern9.jpg" alt />
+              <img src="@/assets/image/read_all/read_concern/read_concern9.jpg" alt />
             </a>
           </div>
           <div class="info">
@@ -229,7 +229,7 @@
         <li>
           <div class="cover">
             <a href="javascript:;">
-              <img src="@/assets/image/read_concern/read_concern10.jpg" alt />
+              <img src="@/assets/image/read_all/read_concern/read_concern10.jpg" alt />
             </a>
           </div>
           <div class="info">
