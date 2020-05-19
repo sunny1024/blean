@@ -18,7 +18,8 @@ import layoutB from '@/components/layout/layoutB.vue'
 import Common from '@/components/layout/common-card.vue'
 Vue.component('commonCard', Common)
 
-
+import billboard from '@/components/layout/billboard-card.vue'
+Vue.component('billboardCard', billboard)
 
 const routes = [
   {

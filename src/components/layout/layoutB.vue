@@ -4,16 +4,16 @@
       <div class="global-nav-info">
         <ul>
           <li>
-            <a href="javascript:;">豆瓣</a>
+            <router-link to="/home">豆瓣</router-link>
           </li>
           <li>
-            <a href="javascript:;">读书</a>
+            <router-link to="/about/read">读书</router-link>
           </li>
           <li>
             <a href="javascript:;">电影</a>
           </li>
           <li>
-            <a href="javascript:;">音乐</a>
+            <router-link to="/about/music">音乐</router-link>
           </li>
           <li>
             <a href="javascript:;">同城</a>

@@ -2,9 +2,13 @@
   <div class="popular-person">
     <div class="popular-top">
       <h2 class="popular-title">
-        <div class="popular-week">{{title}}</div>
+        <a href="javascript:;">
+          <div class="popular-week">{{title}}</div>
+        </a>
         <span class="placeholder">|</span>
-        <span class="fast">{{fast}}</span>
+        <a href="javascript:;">
+          <span class="fast">{{fast}}</span>
+        </a>
       </h2>
       <div class="content">
         <slot></slot>
@@ -22,7 +26,7 @@ export default {
     },
     fast: {
       type: String,
-      default: "上升最快的音乐人"
+      default: "默认标签"
     }
   }
 };
@@ -32,9 +36,11 @@ export default {
 .popular-title {
   font-weight: normal;
   font-size: 17px;
-  color: #222;
   border-bottom: 2px solid #02a682;
   margin-right: 3px;
+  a {
+    color: #222;
+  }
   .popular-week {
     display: inline-block;
     margin-right: 3px;

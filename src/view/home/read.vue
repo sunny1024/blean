@@ -4,23 +4,23 @@
       <div class="blean-read-main">
         <div class="side-navbar">
           <h2>
-            <a href="javascript:;">读书</a>
+            <router-link to="/about/read" target="_blank">读书</router-link>
           </h2>
           <ul class="side-nav-info">
             <li>
-              <a href="javascript:;">分类浏览</a>
+              <router-link to="/about/read" target="_blank">分类浏览</router-link>
             </li>
             <li>
-              <a href="javascript:;">阅读</a>
+              <router-link to="/about/read" target="_blank">阅读</router-link>
             </li>
             <li>
-              <a href="javascript:;">作者</a>
+              <router-link to="/about/read" target="_blank">作者</router-link>
             </li>
             <li>
-              <a href="javascript:;">书评</a>
+              <router-link to="/about/read" target="_blank">书评</router-link>
             </li>
             <li>
-              <a href="javascript:;">购书单</a>
+              <router-link to="/about/read" target="_blank">购书单</router-link>
             </li>
           </ul>
           <div class="apps-list">

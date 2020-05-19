@@ -4,7 +4,7 @@
     <div class="main-content">
       <div class="artcile">
         <chart></chart>
-        <common-card title="本周流行音乐人" fast="dsdsd">
+        <common-card title="本周流行音乐人" fast="上升最快音乐人">
           <div class="artists clearfix">
             <div
               class="artist-item"
@@ -33,6 +33,146 @@
             </div>
           </div>
         </common-card>
+        <billboard-card title="新碟榜" hot="最热" type1="华语" type2="欧美" type3="日韩" type4="单曲">
+          <div class="artists clearfix">
+            <div class="album-item">
+              <div class="inner">
+                <a href="javascript:;">
+                  <div class="cover">
+                    <img src="@/assets/image/music/music_ablum/music_ablum1.jpg" alt />
+                  </div>
+                </a>
+                <div class="music-name">
+                  <a href="javascript:;">how I'm feeling now</a>
+                </div>
+                <p class="music-person">查莉XCX Charli XCX</p>
+                <div class="music-mark">
+                  <span class="mark-num allstar35"></span>
+                  <span class="music-num">7.7</span>
+                </div>
+              </div>
+            </div>
+            <div class="album-item">
+              <div class="inner">
+                <a href="javascript:;">
+                  <div class="cover">
+                    <img src="@/assets/image/music/music_ablum/music_ablum2.jpg" alt />
+                  </div>
+                </a>
+                <div class="music-name">
+                  <a href="javascript:;">사춘기집Ⅱ 꽃 본 나비</a>
+                </div>
+                <p class="music-person">脸红的思春期 볼빨간 사춘기</p>
+                <div class="music-mark">
+                  <span class="mark-num allstar35"></span>
+                  <span class="music-num">7.8</span>
+                </div>
+              </div>
+            </div>
+            <div class="album-item">
+              <div class="inner">
+                <a href="javascript:;">
+                  <div class="cover">
+                    <img src="@/assets/image/music/music_ablum/music_ablum3.jpg" alt />
+                  </div>
+                </a>
+                <div class="music-name">
+                  <a href="javascript:;">The Book of Us : The Demon</a>
+                </div>
+                <p class="music-person">데이식스,DAY6</p>
+                <div class="music-mark">
+                  <span class="mark-num allstar40"></span>
+                  <span class="music-num">8.6</span>
+                </div>
+              </div>
+            </div>
+            <div class="album-item">
+              <div class="inner">
+                <a href="javascript:;">
+                  <div class="cover">
+                    <img src="@/assets/image/music/music_ablum/music_ablum4.jpg" alt />
+                  </div>
+                </a>
+                <div class="music-name">
+                  <a href="javascript:;">美丽中国</a>
+                </div>
+                <p class="music-person">肖战,王丽达,蔡诚俊</p>
+                <div class="music-mark">
+                  <span class="mark-num allstar35"></span>
+                  <span class="music-num">7.4</span>
+                </div>
+              </div>
+            </div>
+            <div class="album-item">
+              <div class="inner">
+                <a href="javascript:;">
+                  <div class="cover">
+                    <img src="@/assets/image/music/music_ablum/music_ablum5.jpg" alt />
+                  </div>
+                </a>
+                <div class="music-name">
+                  <a href="javascript:;">Set My Heart On Fire Immediately</a>
+                </div>
+                <p class="music-person">Perfume Genius</p>
+                <div class="music-mark">
+                  <span class="mark-num allstar40"></span>
+                  <span class="music-num">8.5</span>
+                </div>
+              </div>
+            </div>
+            <div class="album-item">
+              <div class="inner">
+                <a href="javascript:;">
+                  <div class="cover">
+                    <img src="@/assets/image/music/music_ablum/music_ablum6.jpg" alt />
+                  </div>
+                </a>
+                <div class="music-name">
+                  <a href="javascript:;">新世界NEW WORLD</a>
+                </div>
+                <p class="music-person">华晨宇</p>
+                <div class="music-mark">
+                  <span class="mark-num allstar35"></span>
+                  <span class="music-num">7.6</span>
+                </div>
+              </div>
+            </div>
+            <div class="album-item">
+              <div class="inner">
+                <a href="javascript:;">
+                  <div class="cover">
+                    <img src="@/assets/image/music/music_ablum/music_ablum7.jpg" alt />
+                  </div>
+                </a>
+                <div class="music-name">
+                  <a href="javascript:;">2020 刘若英陪你 献上录音专辑</a>
+                </div>
+                <p class="music-person">刘若英</p>
+                <div class="music-mark">
+                  <span class="mark-num allstar40"></span>
+                  <span class="music-num">8.0</span>
+                </div>
+              </div>
+            </div>
+            <div class="album-item">
+              <div class="inner">
+                <a href="javascript:;">
+                  <div class="cover">
+                    <img src="@/assets/image/music/music_ablum/music_ablum8.jpg" alt />
+                  </div>
+                </a>
+                <div class="music-name">
+                  <a href="javascript:;">græ</a>
+                </div>
+                <p class="music-person">Moses Sumney</p>
+                <div class="music-mark">
+                  <span class="mark-num allstar40"></span>
+                  <span class="music-num">8.7</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </billboard-card>
       </div>
       <div class="aside"></div>
     </div>
@@ -155,6 +295,7 @@ export default {
   padding: 15px 0 0 30px;
   background: #f5f7f8;
   text-align: center;
+  margin-bottom: 40px;
   .artist-item {
     float: left;
     width: 130px;
@@ -273,6 +414,63 @@ export default {
       font-size: 13px;
       color: #999;
       margin-bottom: 18px;
+    }
+  }
+  .album-item {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 15px;
+    .inner {
+      display: inline-block;
+      width: 135px;
+      text-align: left;
+      .music-name {
+        display: inline-block;
+        font-size: 15px;
+        line-height: 14px;
+        overflow: hidden;
+        max-width: 100%;
+        color: #138a64;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin: 14px 0 0 0;
+        &:hover {
+          color: white;
+        }
+        a {
+          color: #138a64;
+          &:hover {
+            background-color: #138a64;
+            color: white;
+          }
+        }
+      }
+      .music-person {
+        color: #999;
+        font-size: 13px;
+        margin-bottom: 2px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 100%;
+      }
+      .cover {
+        height: 135px;
+        width: 135px;
+        overflow: hidden;
+        img {
+          width: 100%;
+        }
+      }
+      .music-mark {
+        margin-top: -5px;
+        .music-num {
+          color: orange;
+          font-size: 13px;
+        }
+      }
     }
   }
 }
