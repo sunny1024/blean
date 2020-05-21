@@ -1,5 +1,5 @@
 <template>
-  <div class="popular-person">
+  <div class="popular-song">
     <div class="popular-top">
       <h2 class="popular-title">
         <a href="javascript:;">
