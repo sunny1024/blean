@@ -321,10 +321,10 @@ h2 .link-more {
 h2 .link-more a:first-child {
   margin-right: 10px;
 }
-.list-col li {
+.bd .list-col li {
   display: inline-block;
   width: 337px;
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
   vertical-align: top;
 }
 .popular-books .slide-item .cover {

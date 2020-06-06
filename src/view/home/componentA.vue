@@ -2,7 +2,9 @@
   <div class="main-section">
     <div class="warpper">
       <div class="blean-time-nav">
-        <h2>豆瓣时间</h2>
+        <h2>
+          <a href="javascript:;">豆瓣时间</a>
+        </h2>
       </div>
       <div class="blean-time-main">
         <div class="hot-more">

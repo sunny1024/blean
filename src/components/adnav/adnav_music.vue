@@ -92,7 +92,9 @@ export default {
   align-items: center;
   padding: 10px 0 5px;
 }
-
+.nav-logo {
+  line-height: 1.1;
+}
 .nav-logo a {
   display: inline-block;
   height: 56px;
@@ -136,7 +138,7 @@ export default {
   position: absolute;
   width: 186px;
   height: 96px;
-  top: 15px;
+  top: 10px;
   margin-left: 400px;
   left: 50%;
   background: url("~@/assets/image/music/music_bg/music_bg.jpg") center/contain

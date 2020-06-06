@@ -3,6 +3,7 @@
     <!-- 搜素部分 -->
     <adnavMusic></adnavMusic>
     <div class="main-content">
+      <!-- 左侧内容部分 -->
       <div class="artcile">
         <!-- 轮播图 -->
         <chart></chart>
@@ -184,7 +185,7 @@
               <li class="programme-item">
                 <div class="inner">
                   <a href="javascript:;" class="cover">
-                    <img src="@/assets/image/hot_song/hot-song1.jpg" alt />
+                    <img src="@/assets/image/music/hot_song/hot-song1.jpg" alt />
                     <span class="icon">
                       <i class="el-icon-caret-right"></i>
                     </span>
@@ -214,7 +215,7 @@
               <li class="programme-item">
                 <div class="inner">
                   <a href="javascript:;" class="cover">
-                    <img src="@/assets/image/hot_song/hot-song2.jpg" alt />
+                    <img src="@/assets/image/music/hot_song/hot-song2.jpg" alt />
                     <span class="icon">
                       <i class="el-icon-caret-right"></i>
                     </span>
@@ -238,7 +239,7 @@
               <li class="programme-item">
                 <div class="inner">
                   <a href="javascript:;" class="cover">
-                    <img src="@/assets/image/hot_song/hot-song3.jpg" alt />
+                    <img src="@/assets/image/music/hot_song/hot-song3.jpg" alt />
                     <span class="icon">
                       <i class="el-icon-caret-right"></i>
                     </span>
@@ -262,7 +263,7 @@
               <li class="programme-item">
                 <div class="inner">
                   <a href="javascript:;" class="cover">
-                    <img src="@/assets/image/hot_song/hot-song4.jpg" alt />
+                    <img src="@/assets/image/music/hot_song/hot-song4.jpg" alt />
                     <span class="icon">
                       <i class="el-icon-caret-right"></i>
                     </span>
@@ -286,7 +287,7 @@
               <li class="programme-item">
                 <div class="inner">
                   <a href="javascript:;" class="cover">
-                    <img src="@/assets/image/hot_song/hot-song5.jpg" alt />
+                    <img src="@/assets/image/music/hot_song/hot-song5.jpg" alt />
                     <span class="icon">
                       <i class="el-icon-caret-right"></i>
                     </span>
@@ -310,7 +311,7 @@
               <li class="programme-item">
                 <div class="inner">
                   <a href="javascript:;" class="cover">
-                    <img src="@/assets/image/hot_song/hot-song6.jpg" alt />
+                    <img src="@/assets/image/music/hot_song/hot-song6.jpg" alt />
                     <span class="icon">
                       <i class="el-icon-caret-right"></i>
                     </span>
@@ -335,7 +336,414 @@
           </div>
         </billboard-card>
       </div>
-      <div class="aside"></div>
+      <!-- 右侧内容部分 -->
+      <div class="aside">
+        <!-- 我要加入 -->
+        <div class="jion">
+          <div class="join-block">
+            <h2>
+              <a href="javascript:;">47297</a>
+            </h2>
+            <p>音乐人</p>
+          </div>
+          <div class="join-block">
+            <h2>
+              <a href="javascript:;">2734</a>
+            </h2>
+            <p>播客</p>
+          </div>
+          <div class="join-block last">
+            <h2>
+              <a href="javascript:;">1241</a>
+            </h2>
+            <p>厂牌</p>
+          </div>
+          <div class="clearfix"></div>
+          <a href="javascript:;" class="button">我要加入</a>
+        </div>
+        <!-- 热门音乐分类 -->
+        <classify-card title="热门音乐人分类">
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <a href="javascript:;">流行</a>
+                </td>
+                <td>
+                  <a href="javascript:;">轻音乐</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="javascript:;">摇滚</a>
+                </td>
+                <td>
+                  <a href="javascript:;">古典</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="javascript:;">电子</a>
+                </td>
+                <td>
+                  <a href="javascript:;">世界音乐</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="javascript:;">民谣</a>
+                </td>
+                <td>
+                  <a href="javascript:;">说唱</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="javascript:;">爵士</a>
+                </td>
+                <td>
+                  <a href="javascript:;">原声</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </classify-card>
+        <!-- 本周单曲榜 -->
+        <div class="side-block">
+          <div class="header">
+            <h2 class="Billboard clearfix">
+              <a href="javascript:;" class="list">本周单曲榜</a>
+              <a href="javascript:;" class="play">
+                <i class="el-icon-caret-right"></i>播放全部
+              </a>
+            </h2>
+          </div>
+          <div class="content">
+            <ul class="section-titles">
+              <li class="on">
+                <a href="javascript:;">最热</a>
+              </li>
+              <li>
+                <a href="javascript:;">摇滚</a>
+              </li>
+              <li>
+                <a href="javascript:;">民谣</a>
+              </li>
+              <li>
+                <a href="javascript:;">流行</a>
+              </li>
+              <li>
+                <a href="javascript:;">电子</a>
+              </li>
+              <li>
+                <a href="javascript:;">说唱</a>
+              </li>
+            </ul>
+            <ul class="hot-artist-songs">
+              <li class="artist-song">
+                <div class="avatar">
+                  <img src="@/assets/image/music/billboard/billboard1.jpg" alt />
+                  <span class="icon">
+                    <i class="el-icon-caret-right"></i>
+                  </span>
+                </div>
+                <h3>Ride On (Paul MacFarlane + Odding 2017)</h3>
+                <p>
+                  <span>Paul MacFarlane / Odding</span>
+                  <span>&nbsp;/&nbsp;</span>
+                  <span>494</span>
+                  <span>次播放</span>
+                </p>
+                <span class="rank">1</span>
+              </li>
+              <li class="artist-song">
+                <div class="avatar">
+                  <img src="@/assets/image/music/billboard/billboard2.jpg" alt />
+                  <span class="icon">
+                    <i class="el-icon-caret-right"></i>
+                  </span>
+                </div>
+                <h3>Jacques de Saint-Luc: Tombeau sur la mort de Mr Francois Ginter (arr. Guan)</h3>
+                <p>
+                  <span>Alternative for Baroque</span>
+                  <span>&nbsp;/&nbsp;</span>
+                  <span>279</span>
+                  <span>次播放</span>
+                </p>
+                <span class="rank">2</span>
+              </li>
+              <li class="artist-song">
+                <div class="avatar">
+                  <img src="@/assets/image/music/billboard/billboard3.jpg" alt />
+                  <span class="icon">
+                    <i class="el-icon-caret-right"></i>
+                  </span>
+                </div>
+                <h3>月球背面的酒吧</h3>
+                <p>
+                  <span>爱科学的孩子 Kiz Love Creepshow</span>
+                  <span>&nbsp;/&nbsp;</span>
+                  <span>196</span>
+                  <span>次播放</span>
+                </p>
+                <span class="rank">3</span>
+              </li>
+              <li class="artist-song">
+                <div class="avatar">
+                  <img src="@/assets/image/music/billboard/billboard4.jpg" alt />
+                  <span class="icon">
+                    <i class="el-icon-caret-right"></i>
+                  </span>
+                </div>
+                <h3>坝子，暖阳，山河水</h3>
+                <p>
+                  <span>P苔藓的白水日志</span>
+                  <span>&nbsp;/&nbsp;</span>
+                  <span>1208</span>
+                  <span>次播放</span>
+                </p>
+                <span class="rank">4</span>
+              </li>
+              <li class="artist-song">
+                <div class="avatar">
+                  <img src="@/assets/image/music/billboard/billboard5.jpg" alt />
+                  <span class="icon">
+                    <i class="el-icon-caret-right"></i>
+                  </span>
+                </div>
+                <h3>喜欢你</h3>
+                <p>
+                  <span>阿洋鸽鸽</span>
+                  <span>&nbsp;/&nbsp;</span>
+                  <span>872</span>
+                  <span>次播放</span>
+                </p>
+                <span class="rank">5</span>
+              </li>
+              <li class="artist-song">
+                <div class="avatar">
+                  <img src="@/assets/image/music/billboard/billboard6.jpg" alt />
+                  <span class="icon">
+                    <i class="el-icon-caret-right"></i>
+                  </span>
+                </div>
+                <h3>大裂</h3>
+                <p>
+                  <span>潜逃乐队</span>
+                  <span>&nbsp;/&nbsp;</span>
+                  <span>147</span>
+                  <span>次播放</span>
+                </p>
+                <span class="rank">6</span>
+              </li>
+              <li class="artist-song">
+                <div class="avatar">
+                  <img src="@/assets/image/music/billboard/billboard7.jpg" alt />
+                  <span class="icon">
+                    <i class="el-icon-caret-right"></i>
+                  </span>
+                </div>
+                <h3>13（A+V+M）序-1</h3>
+                <p>
+                  <span>musk</span>
+                  <span>&nbsp;/&nbsp;</span>
+                  <span>649</span>
+                  <span>次播放</span>
+                </p>
+                <span class="rank">7</span>
+              </li>
+              <li class="artist-song">
+                <div class="avatar">
+                  <img src="@/assets/image/music/billboard/billboard8.jpg" alt />
+                  <span class="icon">
+                    <i class="el-icon-caret-right"></i>
+                  </span>
+                </div>
+                <h3>海无忧</h3>
+                <p>
+                  <span>黄汉声</span>
+                  <span>&nbsp;/&nbsp;</span>
+                  <span>341</span>
+                  <span>次播放</span>
+                </p>
+                <span class="rank">8</span>
+              </li>
+              <li class="artist-song">
+                <div class="avatar">
+                  <img src="@/assets/image/music/billboard/billboard9.jpg" alt />
+                  <span class="icon">
+                    <i class="el-icon-caret-right"></i>
+                  </span>
+                </div>
+                <h3>不用借口（伤情流行情歌4000）</h3>
+                <p>
+                  <span>博友文化音乐工作室</span>
+                  <span>&nbsp;/&nbsp;</span>
+                  <span>92</span>
+                  <span>次播放</span>
+                </p>
+                <span class="rank">9</span>
+              </li>
+              <li class="artist-song">
+                <div class="avatar">
+                  <img src="@/assets/image/music/billboard/billboard10.jpg" alt />
+                  <span class="icon">
+                    <i class="el-icon-caret-right"></i>
+                  </span>
+                </div>
+                <h3>邓赟崽说二百八十一</h3>
+                <p>
+                  <span>邓赟崽</span>
+                  <span>&nbsp;/&nbsp;</span>
+                  <span>48</span>
+                  <span>次播放</span>
+                </p>
+                <span class="rank">10</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- 豆瓣音乐250 -->
+        <classify-card title="豆瓣音乐250" :hasline="true">
+          <ul class="music-content">
+            <li>
+              <div class="cover">
+                <a href="javascript:;">
+                  <img
+                    style="max-height: 100px;max-width: 80px;"
+                    src="@/assets/image/music/blean_music/blean_music1.jpg"
+                    alt
+                  />
+                </a>
+              </div>
+              <div class="title">
+                <a href="javascript:;">如果你冷</a>
+              </div>
+            </li>
+            <li>
+              <div class="cover">
+                <a href="javascript:;">
+                  <img
+                    style="max-height: 100px;max-width: 80px;"
+                    src="@/assets/image/music/blean_music/blean_music2.jpg"
+                    alt
+                  />
+                </a>
+              </div>
+              <div class="title">
+                <a href="javascript:;">日光倾城</a>
+              </div>
+            </li>
+            <li>
+              <div class="cover">
+                <a href="javascript:;">
+                  <img
+                    style="max-height: 100px;max-width: 80px;"
+                    src="@/assets/image/music/blean_music/blean_music3.jpg"
+                    alt
+                  />
+                </a>
+              </div>
+              <div class="title">
+                <a href="javascript:;">如果看見地獄，我就不怕魔鬼</a>
+              </div>
+            </li>
+            <li>
+              <div class="cover">
+                <a href="javascript:;">
+                  <img
+                    style="max-height: 100px;max-width: 80px;"
+                    src="@/assets/image/music/blean_music/blean_music4.jpg"
+                    alt
+                  />
+                </a>
+              </div>
+              <div class="title">
+                <a href="javascript:;">Now The Day Is Over</a>
+              </div>
+            </li>
+            <li>
+              <div class="cover">
+                <a href="javascript:;">
+                  <img
+                    style="max-height: 100px;max-width: 80px;"
+                    src="@/assets/image/music/blean_music/blean_music5.jpg"
+                    alt
+                  />
+                </a>
+              </div>
+              <div class="title">
+                <a href="javascript:;">崇拜</a>
+              </div>
+            </li>
+            <li>
+              <div class="cover">
+                <a href="javascript:;">
+                  <img
+                    style="max-height: 100px;max-width: 80px;"
+                    src="@/assets/image/music/blean_music/blean_music6.jpg"
+                    alt
+                  />
+                </a>
+              </div>
+              <div class="title">
+                <a href="javascript:;">黑豹</a>
+              </div>
+            </li>
+            <li>
+              <div class="cover">
+                <a href="javascript:;">
+                  <img
+                    style="max-height: 100px;max-width: 80px;"
+                    src="@/assets/image/music/blean_music/blean_music7.jpg"
+                    alt
+                  />
+                </a>
+              </div>
+              <div class="title">
+                <a href="javascript:;">Wake Me Up When September Ends</a>
+              </div>
+            </li>
+            <li>
+              <div class="cover">
+                <a href="javascript:;">
+                  <img
+                    style="max-height: 100px;max-width: 80px;"
+                    src="@/assets/image/music/blean_music/blean_music8.jpg"
+                    alt
+                  />
+                </a>
+              </div>
+              <div class="title">
+                <a href="javascript:;">(What's The Story) Morning Glory?</a>
+              </div>
+            </li>
+            <li>
+              <div class="cover">
+                <a href="javascript:;">
+                  <img
+                    style="max-height: 100px;max-width: 80px;"
+                    src="@/assets/image/music/blean_music/blean_music9.jpg"
+                    alt
+                  />
+                </a>
+              </div>
+              <div class="title">
+                <a href="javascript:;">Young For You</a>
+              </div>
+            </li>
+          </ul>
+        </classify-card>
+        <!-- 豆瓣音乐客户端 -->
+        <div class="app-music">
+          <a class="entrance-link" href="javascript:;">
+            <span class="app-icon blean-fm icon-fm"></span>
+            <span class="main-title">豆瓣FM客户端</span>
+            <span class="sub-title">让好音乐继续</span>
+            <i class="el-icon-arrow-right"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -437,6 +845,7 @@ export default {
 };
 </script>
 
+
 <style scoped lang='less'>
 .main-content {
   width: 1040px;
@@ -449,6 +858,57 @@ export default {
   .aside {
     float: right;
     width: 300px;
+    .jion {
+      margin-bottom: 30px;
+      .join-block {
+        float: left;
+        width: 98px;
+        height: 57px;
+        background-color: #f5f7f8;
+        text-align: center;
+        margin-right: 2px;
+        h2 {
+          margin-top: 9px;
+          line-height: 115%;
+          border-bottom: none;
+          padding: 0;
+          margin-bottom: 0;
+          a {
+            font-size: 17px;
+            line-height: 15px;
+            color: #138a64;
+            font-weight: bold;
+            &:hover {
+              color: #fff;
+              background-color: #138a64;
+            }
+          }
+        }
+        p {
+          font-size: 15px;
+          color: #666;
+          line-height: 2;
+        }
+      }
+      .last {
+        margin-right: 0px;
+      }
+      .button {
+        display: block;
+        height: 38px;
+        background-color: #139d72;
+        color: #fff;
+        border-radius: 3px;
+        border: 1px solid #138a64;
+        text-align: center;
+        line-height: 38px;
+        font-size: 17px;
+        margin-top: 3px;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
   }
 }
 .artists {
@@ -737,6 +1197,238 @@ export default {
           }
         }
       }
+    }
+  }
+}
+table {
+  border-collapse: collapse;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+td {
+  width: 150px;
+  border-top: 1px solid #f8f6f6;
+  border-bottom: 1px solid #f8f6f6;
+  border-right: 1px solid #f8f6f6;
+  padding: 1px;
+  a {
+    display: block;
+    padding-left: 6px;
+    height: 36px;
+    line-height: 36px;
+    color: #138a64;
+    font-size: 15px;
+    &:hover {
+      background-color: #f5f7f8;
+    }
+  }
+}
+.side-block {
+  margin-top: 30px;
+  .header {
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e4e2e2;
+    h2 {
+      font-size: 15px;
+      font-weight: normal;
+      .list {
+        display: inline-blcok;
+        color: #222;
+      }
+      .play {
+        display: block;
+        float: right;
+        background-color: #139d72;
+        border: 1px solid #138a64;
+        border-radius: 3px;
+        font-size: 13px;
+        color: #fff;
+        line-height: 24px;
+        width: 88px;
+        height: 23px;
+        text-align: center;
+        &:hover {
+          opacity: 0.8;
+        }
+        .el-icon-caret-right {
+          position: relative;
+          font-size: 20px;
+          top: 3px;
+        }
+      }
+    }
+  }
+}
+.section-titles li {
+  display: inline-block;
+  font-size: 13px;
+  &::before {
+    content: "|";
+    color: #222;
+    padding: 0 3px;
+  }
+
+  a {
+    color: #999;
+    &:hover {
+      background: transparent;
+      color: #138a64;
+      text-decoration: underline;
+    }
+  }
+}
+.section-titles .on {
+  font-weight: bold;
+  &::before {
+    content: "";
+    color: #222;
+    padding: 0 3px;
+  }
+  a {
+    color: #138a64;
+  }
+}
+.hot-artist-songs {
+  margin-bottom: 40px;
+  .artist-song {
+    position: relative;
+    padding-left: 60px;
+    height: 60px;
+    &:hover {
+      background-color: #f5f7f8;
+      cursor: pointer;
+      .avatar > .icon {
+        background-color: #333;
+        opacity: 0.8;
+        .el-icon-caret-right {
+          color: #fff;
+        }
+      }
+    }
+    .avatar {
+      position: absolute;
+      left: 2px;
+      top: 6px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      line-height: 48px;
+      text-align: center;
+      overflow: hidden;
+      img {
+        width: 48px;
+        height: 48px;
+      }
+      .icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 48px;
+        height: 48px;
+        .el-icon-caret-right {
+          font-size: 20px;
+          color: transparent;
+          margin-top: 15px;
+        }
+      }
+    }
+    h3 {
+      font-weight: normal;
+      font-size: 15px;
+      color: #138a64;
+      line-height: 14px;
+      max-width: 200px;
+      padding-top: 12px;
+      padding-bottom: 8px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    p {
+      font-size: 13px;
+      line-height: 13px;
+      color: #999;
+    }
+    .rank {
+      position: absolute;
+      right: 10px;
+      top: 0;
+      height: 100%;
+      font-size: 35px;
+      line-height: 60px;
+      color: #e6e6e6;
+    }
+  }
+}
+.music-content {
+  width: 330px;
+  margin-top: 12px;
+  li {
+    display: inline-block;
+    width: 90px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    vertical-align: top;
+    .cover {
+      margin-bottom: 8px;
+    }
+    .title {
+      font-size: 13px;
+      line-height: 14px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: #138a64;
+      &:hover {
+        color: white;
+        a {
+          background-color: #138a64;
+          color: #fff;
+        }
+      }
+      a {
+        color: #138a64;
+      }
+    }
+  }
+}
+.app-music {
+  margin: 20px 0 15px 0;
+  .entrance-link {
+    display: block;
+    position: relative;
+    width: 280px;
+    height: 50px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    .icon-fm {
+      float: left;
+      margin-right: 13px;
+    }
+    .main-title {
+      display: block;
+      font-weight: bold;
+      padding-top: 9px;
+      font-size: 16px;
+      color: #204d92;
+      line-height: 1;
+    }
+    .sub-title {
+      display: block;
+      color: #4e4e4e;
+      font-size: 13px;
+    }
+    .el-icon-arrow-right {
+      position: absolute;
+      right: 5px;
+      top: 50%;
+      margin-top: -4px;
+      color: #ccc;
+      font-size: 13px;
+      font-weight: bolder;
     }
   }
 }

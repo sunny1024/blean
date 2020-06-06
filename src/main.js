@@ -21,6 +21,8 @@ Vue.component('commonCard', Common)
 import billboard from '@/components/layout/billboard-card.vue'
 Vue.component('billboardCard', billboard)
 
+import classify from '@/components/layout/classify-card.vue'
+Vue.component('classifyCard', classify)
 const routes = [
   {
     path: '/',

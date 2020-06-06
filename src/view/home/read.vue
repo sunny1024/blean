@@ -27,7 +27,7 @@
             <ul>
               <li>
                 <a class="link-icon" href="javascript:; ">
-                  <i></i>
+                  <i class="app-icon"></i>
                 </a>
               </li>
               <li>

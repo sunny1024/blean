@@ -42,7 +42,7 @@
             <ul>
               <li>
                 <a class="link-icon" href="javascript:; ">
-                  <i class="blean-fm"></i>
+                  <i class="app-icon blean-fm"></i>
                 </a>
               </li>
               <li>
@@ -54,7 +54,7 @@
             <ul>
               <li>
                 <a class="link-icon" href="javascript:; ">
-                  <i class="blean-music"></i>
+                  <i class="app-icon blean-music"></i>
                 </a>
               </li>
               <li>
